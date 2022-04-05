@@ -1,1 +1,1 @@
-export * from './lib/uniorg-remark'
+export { default } from './lib/uniorg-remark'
