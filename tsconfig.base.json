@@ -22,6 +22,7 @@
     "baseUrl": ".",
     "paths": {
       "orgast-util-stringify": ["./uniorg/packages/orgast-util-stringify"],
+      "orgast-util-to-mdast": ["packages/orgast-util-to-mdast/src/index.ts"],
       "orgast-util-visit-ids": ["./uniorg/packages/orgast-util-visit-ids"],
       "uniorg": ["./uniorg/packages/uniorg"],
       "uniorg-parse": ["./uniorg/packages/uniorg-parse"],

@@ -1,0 +1,26 @@
+{
+  "root": "packages/orgast-util-to-mdast",
+  "sourceRoot": "packages/orgast-util-to-mdast/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/node:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/orgast-util-to-mdast",
+        "tsConfig": "packages/orgast-util-to-mdast/tsconfig.lib.json",
+        "packageJson": "packages/orgast-util-to-mdast/package.json",
+        "main": "packages/orgast-util-to-mdast/src/index.ts",
+        "assets": ["packages/orgast-util-to-mdast/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/orgast-util-to-mdast/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}
