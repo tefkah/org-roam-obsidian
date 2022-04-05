@@ -20,7 +20,15 @@
     "skipDefaultLibCheck": true,
     "noImplicitThis": false,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "orgast-util-stringify": ["./uniorg/packages/orgast-util-stringify"],
+      "orgast-util-visit-ids": ["./uniorg/packages/orgast-util-visit-ids"],
+      "uniorg": ["./uniorg/packages/uniorg"],
+      "uniorg-parse": ["./uniorg/packages/uniorg-parse"],
+      "uniorg-rehype": ["./uniorg/packages/uniorg-rehype"],
+      "uniorg-remark": ["packages/uniorg-remark/src/index.ts"],
+      "uniorg-stringify": ["./uniorg/packages/uniorg-stringify"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

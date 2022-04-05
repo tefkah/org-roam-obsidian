@@ -1,0 +1,26 @@
+{
+  "root": "packages/uniorg-remark",
+  "sourceRoot": "packages/uniorg-remark/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/node:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/uniorg-remark",
+        "tsConfig": "packages/uniorg-remark/tsconfig.lib.json",
+        "packageJson": "packages/uniorg-remark/package.json",
+        "main": "packages/uniorg-remark/src/index.ts",
+        "assets": ["packages/uniorg-remark/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/uniorg-remark/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}
