@@ -1,4 +1,0 @@
-[submodule "uniorg"]
-	path = uniorg
-	url = https://github.com/rasendubi/uniorg
-	branch = feat/esm
