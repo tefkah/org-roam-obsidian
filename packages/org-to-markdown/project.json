@@ -1,0 +1,26 @@
+{
+  "root": "packages/org-to-markdown",
+  "sourceRoot": "packages/org-to-markdown/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/node:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/org-to-markdown",
+        "tsConfig": "packages/org-to-markdown/tsconfig.lib.json",
+        "packageJson": "packages/org-to-markdown/package.json",
+        "main": "packages/org-to-markdown/src/index.ts",
+        "assets": ["packages/org-to-markdown/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/org-to-markdown/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

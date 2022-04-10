@@ -22,6 +22,7 @@
     "noImplicitThis": false,
     "baseUrl": ".",
     "paths": {
+      "org-to-markdown": ["packages/org-to-markdown/src/index.ts"],
       "orgast-util-to-mdast": ["packages/orgast-util-to-mdast/src/index.ts"],
       "uniorg-remark": ["packages/uniorg-remark/src/index.ts"]
     }
