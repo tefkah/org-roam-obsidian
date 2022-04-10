@@ -1,0 +1,13 @@
+import { HTML } from 'mdast'
+import { Comment, GreaterElement } from 'uniorg'
+import { Handle, J } from '../types'
+
+const comment: Handle = (
+  j: J,
+  node: Comment,
+  parent?: GreaterElement
+): HTML | void => {
+  if (j.preserveComments) {
+    return j(node, 'html', `<!-- ${node.value} -->`) as HTML
+  }
+}

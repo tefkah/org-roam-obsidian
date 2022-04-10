@@ -45,6 +45,7 @@ export interface Options {
   keywordFrontMatterMap?: [{ key: string; value: string }]
   ignoredKeywords?: string[]
   citationAnalyzer?: (node: Node) => string
+  preserveComments?: boolean
 }
 
 export type Handle = (
@@ -71,6 +72,7 @@ export interface Context {
   unchecked: string
   quotes: Array<string>
   citationAnalyzer: (node: Node) => string
+  preserveComments: boolean
 }
 
 export type JWithProps<T extends MdastContent['type'] = MdastContent['type']> =

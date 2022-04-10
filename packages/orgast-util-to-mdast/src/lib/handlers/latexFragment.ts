@@ -1,12 +1,6 @@
 import { GreaterElement, LatexFragment } from 'uniorg'
 import { Handle, J } from '../types'
 import { InlineMath, Math } from 'mdast-util-math'
-import { all } from '../all'
-import {
-  bracketMathRegex,
-  isInlineMath,
-  singleDollarMathRegex,
-} from '../util/regexes'
 
 export const latexFragment: Handle = (
   j: J,

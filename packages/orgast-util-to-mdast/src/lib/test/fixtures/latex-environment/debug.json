@@ -9,7 +9,7 @@
       "type": "paragraph",
       "children": [
         {
-          "type": "inlineMath",
+          "type": "math",
           "value": "f(x) = x^2"
         }
       ]

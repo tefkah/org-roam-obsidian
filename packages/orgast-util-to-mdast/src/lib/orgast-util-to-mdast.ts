@@ -91,6 +91,7 @@ export function toMdast(tree: MdastRoot | MdastContent, options?: Options) {
       ignoredKeywords: options.ignoredKeywords || [],
       citationAnalyzer:
         options.citationAnalyzer || ((node: Node) => 'autocite'),
+      preserveComments: options.preserveComments || true,
     } as Context
   )
 
