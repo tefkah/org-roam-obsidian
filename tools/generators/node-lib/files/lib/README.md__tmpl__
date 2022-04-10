@@ -69,11 +69,11 @@ GPL-3-0-or-later © <%= author %>
 [rejour-relatex]: https://github.com/journaloftrialanderror/jote/tree/main/libs/rejour/rejour-relatex
 [relatex]: https://github.com/journaloftrialanderror/jote/tree/main/libs/relatex
 [relatex-parse]: https://github.com/journaloftrialanderror/jote/tree/main/libs/relatex/relatex-parse
-[jast]: https://github.com/journaloftrialanderror/jote/tree/main/libs/rejour/jast
-[jast-util-to-texast]: https://github.com/journaloftrialanderror/jote/tree/main/libs/rejour/jast-util-to-texast
-[jastscript]: https://github.com/journaloftrialanderror/jote/tree/main/libs/rejour/jastscript
-[texast]: https://github.com/journaloftrialanderror/jote/tree/main/libs/relatex/texast
-[texast-util-to-latex]: https://github.com/journaloftrialanderror/jote/tree/main/libs/relatex/texast-util-to-latex
+[orgast]: https://github.com/journaloftrialanderror/jote/tree/main/libs/rejour/orgast
+[orgast-util-to-mdast]: https://github.com/journaloftrialanderror/jote/tree/main/libs/rejour/orgast-util-to-mdast
+[orgastscript]: https://github.com/journaloftrialanderror/jote/tree/main/libs/rejour/orgastscript
+[mdast]: https://github.com/journaloftrialanderror/jote/tree/main/libs/relatex/mdast
+[mdast-util-to-latex]: https://github.com/journaloftrialanderror/jote/tree/main/libs/relatex/mdast-util-to-latex
 [hast]: https://github.com/syntax-tree/hast
 [xast]: https://github.com/syntax-tree/xast
 [mdast]: https://github.com/syntax-tree/mdast
@@ -84,5 +84,5 @@ GPL-3-0-or-later © <%= author %>
 [reoff-parse]: https://github.com/journaloftrialanderror/jote/tree/main/libs/reoff/reoff-parse
 [reoff-rejour]: https://github.com/journaloftrialanderror/jote/tree/main/libs/reoff/reoff-rejour
 [ooxast]: https://github.com/journaloftrialanderror/jote/tree/main/libs/ooxast/ooxast
-[ooxast]: https://github.com/journaloftrialanderror/jote/tree/main/libs/ooxast/ooxast-util-to-jast
+[ooxast]: https://github.com/journaloftrialanderror/jote/tree/main/libs/ooxast/ooxast-util-to-orgast
 [<%= importPath %>]: https://github.com/journaloftrialanderror/jote/tree/main/libs/<%= name %>

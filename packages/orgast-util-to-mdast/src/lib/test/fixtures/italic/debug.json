@@ -1,0 +1,19 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "emphasis",
+          "children": [
+            {
+              "type": "text",
+              "value": "italic"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

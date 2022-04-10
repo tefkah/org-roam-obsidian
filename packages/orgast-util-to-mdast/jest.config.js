@@ -13,7 +13,7 @@ const config = {
   },
   transformIgnorePatterns: [],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../..//coverage/libs/orgast-util-to-mdast',
+  coverageDirectory: '../../coverage/packages/orgast-util-to-mdast',
   extensionsToTreatAsEsm: ['.ts'],
   moduleNameMapper: {
     '^(\\.{1,2}/.*)\\.js$': '$1',
