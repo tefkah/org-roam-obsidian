@@ -1,0 +1,5 @@
+cite:SomeGuy2020
+
+[cite:@SomeGuy2020]
+
+[cite//b:@SomeGuy2020]

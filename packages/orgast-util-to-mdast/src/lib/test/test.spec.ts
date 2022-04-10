@@ -26,7 +26,12 @@ const fromOrg = (config: Options = {}) =>
     .use(remarkMath)
     .use(remarkGFM)
     .use(remarkFrontMatter)
-    .use(remarkStringify)
+    .use(remarkStringify, {
+      bullet: '-',
+      listItemIndent: 'one',
+      bulletOrdered: ')',
+      emphasis: '_',
+    })
 
 const fixtures = join(__dirname, 'fixtures')
 const dir = readdirSync(fixtures)

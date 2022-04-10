@@ -8,5 +8,8 @@ export const text: Handle = (
   node: Text,
   parent?: GreaterElement
 ): MdastText => {
+  if (node.value.at(-1) === '\n') {
+    node.value = node.value.slice(0, -1)
+  }
   return node as MdastText
 }

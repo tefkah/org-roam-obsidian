@@ -19,14 +19,17 @@ import { paragraph } from './paragraph'
 import { latexFragment } from './latexFragment'
 import { latexEnvironment } from './latexEnvironment'
 import { text } from './text'
+import { list } from './list'
+import { listItem } from './listItem'
+import { comment } from './comments'
 
 export const handlers = {
   // 'org-data': orgData,
   // section,
   // 'property-drawer': propertyDrawer,
   // drawer,
-  // list,
-  // 'list-item': listItem,
+  'plain-list': list,
+  'list-item': listItem,
   // 'quote-block': quoteBlock,
   // 'verse-block': verseBlock,
   // 'center-block': centerBlock,
@@ -43,7 +46,7 @@ export const handlers = {
   // 'export-block': exportBlock,
   keyword,
   // 'table-row': tableRow,
-  // comment,
+  comment,
   // 'fixed-width': fixedWidth,
   // clock,
   'latex-environment': latexEnvironment,

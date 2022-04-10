@@ -1,15 +1,5 @@
 import { GreaterElement, GreaterElementType, Keyword } from 'uniorg'
 import { Handle, J } from '../types'
-import { toString } from 'orgast-util-to-string'
-import { wrapText } from '../util/wrap-text'
-import { front } from './front'
-import { all } from '../all'
-import { wrap } from '../util/wrap'
-
-const keywordMetadataMap: Record<string, string> = {
-  roam_refs: 'citekey',
-  id: 'org-id',
-}
 
 export const keyword: Handle = (
   j: J,

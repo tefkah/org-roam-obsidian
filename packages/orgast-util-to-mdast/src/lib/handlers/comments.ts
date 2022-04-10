@@ -2,7 +2,7 @@ import { HTML } from 'mdast'
 import { Comment, GreaterElement } from 'uniorg'
 import { Handle, J } from '../types'
 
-const comment: Handle = (
+export const comment: Handle = (
   j: J,
   node: Comment,
   parent?: GreaterElement
