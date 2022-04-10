@@ -2496,6 +2496,11 @@ get-symbol-description@^1.0.0:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
+github-slugger@^1.3.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/github-slugger/-/github-slugger-1.4.0.tgz#206eb96cdb22ee56fdc53a28d5a302338463444e"
+  integrity sha512-w0dzqw/nt51xMVmlaV1+JRzN+oCa1KfcgGEWhxUG16wbdA+Xnt/yoFO8Z8x/V82ZcZ0wy6ln9QDup5avbhiDhQ==
+
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
   resolved "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz"
@@ -2610,6 +2615,13 @@ hast-util-is-element@^2.0.0:
     "@types/hast" "^2.0.0"
     "@types/unist" "^2.0.0"
 
+hast-util-parse-selector@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/hast-util-parse-selector/-/hast-util-parse-selector-3.1.0.tgz#a519e27e8b61bd5a98fad494ed06131ce68d9c3f"
+  integrity sha512-AyjlI2pTAZEOeu7GeBPZhROx0RHBnydkQIXlhnFzDi0qfXTmGUWoCYZtomHbrdrheV4VFUlPcfJ6LMF5T6sQzg==
+  dependencies:
+    "@types/hast" "^2.0.0"
+
 hast-util-sanitize@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/hast-util-sanitize/-/hast-util-sanitize-4.0.0.tgz#71a02ca2e50d04b852a5500846418070ca364f60"
@@ -2637,6 +2649,17 @@ hast-util-whitespace@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hast-util-whitespace/-/hast-util-whitespace-2.0.0.tgz#4fc1086467cc1ef5ba20673cb6b03cec3a970f1c"
   integrity sha512-Pkw+xBHuV6xFeJprJe2BBEoDV+AvQySaz3pPDRUs5PNZEMQjpXJJueqrpcHIXxnWTcAGi/UOCgVShlkY6kLoqg==
+
+hastscript@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/hastscript/-/hastscript-7.0.2.tgz#d811fc040817d91923448a28156463b2e40d590a"
+  integrity sha512-uA8ooUY4ipaBvKcMuPehTAB/YfFLSSzCwFSwT6ltJbocFUKH/GDHLN+tflq7lSRf9H86uOuxOFkh1KgIy3Gg2g==
+  dependencies:
+    "@types/hast" "^2.0.0"
+    comma-separated-tokens "^2.0.0"
+    hast-util-parse-selector "^3.0.0"
+    property-information "^6.0.0"
+    space-separated-tokens "^2.0.0"
 
 hosted-git-info@^2.1.4:
   version "2.8.9"
@@ -4494,6 +4517,18 @@ optionator@^0.9.1:
     type-check "^0.4.0"
     word-wrap "^1.2.3"
 
+orgast-util-to-string@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/orgast-util-to-string/-/orgast-util-to-string-0.5.0.tgz#569883c5cf6ac77c4b1fd6f2e26db77f9f54b785"
+  integrity sha512-Tso2T1v60Os2Pb9KRXsm/p2fnAiPwFCVAqI3bnYqfQWSxS/6IbRfXcBDizecrdt0uM/UIDiZfRV8W3tdHQMhIw==
+
+orgast-util-visit-ids@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/orgast-util-visit-ids/-/orgast-util-visit-ids-0.5.0.tgz#04533dbe9c384fca2f4a5b6dbc9d0325f0d49ef5"
+  integrity sha512-GowYv/AFpF8fyr0VSepqlJ1UZTPujEdl//Sbl2n+yLBDUiN/Qj1n8nOtp1byFXopJmH9U3aUvSUAWNxAkP8nVw==
+  dependencies:
+    unist-util-visit-parents "5.1.0"
+
 p-limit@^2.2.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/p-limit/-/p-limit-2.3.0.tgz"
@@ -5383,7 +5418,52 @@ unified@^10.0.0, unified@^10.1.2:
     trough "^2.0.0"
     vfile "^5.0.0"
 
-unist-builder@^3.0.0:
+uniorg-attach@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/uniorg-attach/-/uniorg-attach-0.5.0.tgz#87381c3dc225bec1d11e562e118b0ff19174adda"
+  integrity sha512-ws0rl74LkiDLtPdo0vb7zwAPN5tiH1Flw2pOlzUhokASS7x9Ls6uWCvXb5ZkzlA66rJbnF5rvJjFT3Dnq9gPlg==
+  dependencies:
+    unist-util-visit-parents "5.1.0"
+
+uniorg-extract-keywords@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/uniorg-extract-keywords/-/uniorg-extract-keywords-0.5.0.tgz#1a4e856341825eccd7e204abfacc1cf3a59eb551"
+  integrity sha512-wggNixqHUjKNp/IZSRTxdCQ3IUrrDn5Hgugq0HiVKbonj+bzm5KMB+D2gfiIPCoMeeCGoUpHTt5dsu7iImxuiw==
+  dependencies:
+    unist-util-visit "4.1.0"
+
+uniorg-parse@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/uniorg-parse/-/uniorg-parse-0.5.0.tgz#a8c29ef6eb11a948e66788f9e84548ab7694dfcd"
+  integrity sha512-ijzxtwispT++w4733F5Dnzk3BFhKEJms7ifwQfMbN+Wr1TBuGKoFk61kxMwlZh96O4yYANCARQ6n8xZCuVJwFw==
+  dependencies:
+    unist-builder "3.0.0"
+    vfile "5.3.2"
+    vfile-location "4.0.1"
+
+uniorg-rehype@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/uniorg-rehype/-/uniorg-rehype-0.5.0.tgz#46af7acab4b0f35d82464558f71af4d4ccb81a0f"
+  integrity sha512-w68LjqWgY9CzxdT0OgmutYAyOJOc7wS4sn1reNVNd+wtL6CckjnTve160QgEdHBwPSH3zAXMKzBPv6QyG/xKDg==
+  dependencies:
+    hastscript "7.0.2"
+    unist-builder "3.0.0"
+
+uniorg-slug@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/uniorg-slug/-/uniorg-slug-0.5.0.tgz#0fba849aca9fd5993aace407d085e41ec18dc697"
+  integrity sha512-PyoyIfQd8eLYR1UPPmL7Se1Krrvcguc5Ddfov3qU3u0oMe1sEuGpjNPEoDRdbEb3lh7onNxPHNIKNr1kzzEDHA==
+  dependencies:
+    github-slugger "^1.3.0"
+    orgast-util-to-string "^0.5.0"
+    unist-util-visit "4.1.0"
+
+uniorg@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/uniorg/-/uniorg-0.5.0.tgz#c8d051859af6e888c2c587ad556130e2cc865cb3"
+  integrity sha512-aXXYZywd9fh0xJmXyho7IwJ8goQhj90LwscsCj9p49jOpZgs1uvBFLjwa3QvO0hP8ejTq2tl87a3lfsNWWW2dg==
+
+unist-builder@3.0.0, unist-builder@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/unist-builder/-/unist-builder-3.0.0.tgz#728baca4767c0e784e1e64bb44b5a5a753021a04"
   integrity sha512-GFxmfEAa0vi9i5sd0R2kcrI9ks0r82NasRq5QHh2ysGngrc6GiqD5CDf1FjPenY4vApmFASBIIlk/jj5J5YbmQ==
@@ -5429,6 +5509,14 @@ unist-util-stringify-position@^3.0.0:
   dependencies:
     "@types/unist" "^2.0.0"
 
+unist-util-visit-parents@5.1.0, unist-util-visit-parents@^5.0.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-5.1.0.tgz#44bbc5d25f2411e7dfc5cecff12de43296aa8521"
+  integrity sha512-y+QVLcY5eR/YVpqDsLf/xh9R3Q2Y4HxkZTp7ViLDU6WtJCEcPmRzW1gpdWDCDIqIlhuPDXOgttqPlykrHYDekg==
+  dependencies:
+    "@types/unist" "^2.0.0"
+    unist-util-is "^5.0.0"
+
 unist-util-visit-parents@^4.0.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-4.1.1.tgz#e83559a4ad7e6048a46b1bdb22614f2f3f4724f2"
@@ -5437,13 +5525,14 @@ unist-util-visit-parents@^4.0.0:
     "@types/unist" "^2.0.0"
     unist-util-is "^5.0.0"
 
-unist-util-visit-parents@^5.0.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-5.1.0.tgz#44bbc5d25f2411e7dfc5cecff12de43296aa8521"
-  integrity sha512-y+QVLcY5eR/YVpqDsLf/xh9R3Q2Y4HxkZTp7ViLDU6WtJCEcPmRzW1gpdWDCDIqIlhuPDXOgttqPlykrHYDekg==
+unist-util-visit@4.1.0, unist-util-visit@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-4.1.0.tgz#f41e407a9e94da31594e6b1c9811c51ab0b3d8f5"
+  integrity sha512-n7lyhFKJfVZ9MnKtqbsqkQEk5P1KShj0+//V7mAcoI6bpbUjh3C/OG8HVD+pBihfh6Ovl01m8dkcv9HNqYajmQ==
   dependencies:
     "@types/unist" "^2.0.0"
     unist-util-is "^5.0.0"
+    unist-util-visit-parents "^5.0.0"
 
 unist-util-visit@^3.0.0:
   version "3.1.0"
@@ -5453,15 +5542,6 @@ unist-util-visit@^3.0.0:
     "@types/unist" "^2.0.0"
     unist-util-is "^5.0.0"
     unist-util-visit-parents "^4.0.0"
-
-unist-util-visit@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-4.1.0.tgz#f41e407a9e94da31594e6b1c9811c51ab0b3d8f5"
-  integrity sha512-n7lyhFKJfVZ9MnKtqbsqkQEk5P1KShj0+//V7mAcoI6bpbUjh3C/OG8HVD+pBihfh6Ovl01m8dkcv9HNqYajmQ==
-  dependencies:
-    "@types/unist" "^2.0.0"
-    unist-util-is "^5.0.0"
-    unist-util-visit-parents "^5.0.0"
 
 universalify@^0.1.2:
   version "0.1.2"
@@ -5517,7 +5597,7 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vfile-location@^4.0.1:
+vfile-location@4.0.1, vfile-location@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/vfile-location/-/vfile-location-4.0.1.tgz#06f2b9244a3565bef91f099359486a08b10d3a95"
   integrity sha512-JDxPlTbZrZCQXogGheBHjbRWjESSPEak770XwWPfw5mTc1v1nWGLB/apzZxsx8a0SJVfF8HK8ql8RD308vXRUw==
@@ -5533,7 +5613,7 @@ vfile-message@^3.0.0:
     "@types/unist" "^2.0.0"
     unist-util-stringify-position "^3.0.0"
 
-vfile@^5.0.0:
+vfile@5.3.2, vfile@^5.0.0:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/vfile/-/vfile-5.3.2.tgz#b499fbc50197ea50ad3749e9b60beb16ca5b7c54"
   integrity sha512-w0PLIugRY3Crkgw89TeMvHCzqCs/zpreR31hl4D92y6SOE07+bfJe+dK5Q2akwS+i/c801kzjoOr9gMcTe6IAA==

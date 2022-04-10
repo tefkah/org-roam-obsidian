@@ -22,18 +22,8 @@
     "noImplicitThis": false,
     "baseUrl": ".",
     "paths": {
-      "orgast-util-to-string": [
-        "uniorg/packages/orgast-util-to-string/src/index.ts"
-      ],
       "orgast-util-to-mdast": ["packages/orgast-util-to-mdast/src/index.ts"],
-      "orgast-util-visit-ids": [
-        "./uniorg/packages/orgast-util-visit-ids/src/index.ts"
-      ],
-      "uniorg": ["./uniorg/packages/uniorg/src/index.ts"],
-      "uniorg-parse": ["./uniorg/packages/uniorg-parse/src/index.ts"],
-      "uniorg-rehype": ["./uniorg/packages/uniorg-rehype/src/index.ts"],
-      "uniorg-remark": ["packages/uniorg-remark/src/index.ts"],
-      "uniorg-stringify": ["./uniorg/packages/uniorg-stringify/src/index.ts"]
+      "uniorg-remark": ["packages/uniorg-remark/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

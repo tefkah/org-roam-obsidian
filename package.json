@@ -38,6 +38,8 @@
     "micromark-extension-gfm": "^2.0.1",
     "micromark-extension-math": "^2.0.2",
     "micromark-extension-mdx": "^1.0.0",
+    "orgast-util-to-string": "^0.5.0",
+    "orgast-util-visit-ids": "^0.5.0",
     "remark-frontmatter": "^4.0.1",
     "remark-gfm": "^3.0.1",
     "remark-html": "^15.0.1",
@@ -45,6 +47,12 @@
     "remark-stringify": "^10.0.2",
     "trim-trailing-lines": "^2.0.0",
     "unified": "^10.1.2",
+    "uniorg": "^0.5.0",
+    "uniorg-attach": "^0.5.0",
+    "uniorg-extract-keywords": "^0.5.0",
+    "uniorg-parse": "^0.5.0",
+    "uniorg-rehype": "^0.5.0",
+    "uniorg-slug": "^0.5.0",
     "unist-builder": "^3.0.0",
     "vfile-location": "^4.0.1"
   }
