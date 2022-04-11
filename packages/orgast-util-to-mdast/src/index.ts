@@ -1,1 +1,2 @@
-export * from './t/orgast-util-to-mdast'
+export * from './lib/orgast-util-to-mdast'
+export * from './lib/types'

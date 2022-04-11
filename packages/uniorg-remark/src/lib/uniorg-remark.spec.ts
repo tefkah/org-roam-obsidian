@@ -1,10 +1,8 @@
-import {Node} from 'unist'
-import { uniorg-remark } from './uniorg-remark';
+import { Node } from 'unist'
+import uniorgRemark from './uniorg-remark'
 
 describe('uniorg-remark', () => {
-
-    it('should work', () => {
-
-        expect(uniorg-remark({type:'root',children:[]} as Node)).toBeDefined();
-    })
+  it('should work', () => {
+    expect(uniorgRemark({ type: 'root', children: [] } as Node)).toBeDefined()
+  })
 })
