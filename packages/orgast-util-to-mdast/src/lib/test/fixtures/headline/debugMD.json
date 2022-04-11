@@ -8,6 +8,10 @@
         {
           "type": "text",
           "value": "heading 1"
+        },
+        {
+          "type": "text",
+          "value": "tags"
         }
       ]
     },

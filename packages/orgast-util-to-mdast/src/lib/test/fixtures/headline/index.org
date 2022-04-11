@@ -1,4 +1,4 @@
-* heading 1
+* heading 1 :tag1:tag2:
 
 ** heading 2
 

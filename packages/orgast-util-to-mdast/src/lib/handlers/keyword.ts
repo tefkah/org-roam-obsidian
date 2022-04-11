@@ -10,7 +10,7 @@ export const keyword: Handle = (j: J, node: Keyword) => {
         { type: 'text', value: node.value },
       ])
     case 'filetags': {
-      j.frontMatter['tags'] = node.value.split(':')
+      j.frontMatter['tags'] = node.value.split(':').filter((t) => t)
       return
     }
     default:

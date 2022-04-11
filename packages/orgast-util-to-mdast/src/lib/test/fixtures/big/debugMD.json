@@ -3,7 +3,7 @@
   "children": [
     {
       "type": "yaml",
-      "value": "title: III. Anyons\ntags:\n  - \"\"\n  - chapter\n  - anyons\n  - \"\"\nlatex_header: \\usepackage[style=apa, backend=biber]{biblatex}\nlatex_header_extra: \\DeclareUnicodeCharacter{2212}{-}\ntransclude: \"[[id:66aff1d3-bd45-45e5-9d31-d4292d76ae8e][FQHE/anyon\n  chapter:Geometrical Phase]]\"\nid: 84c8fdf0-a17d-4610-b644-d298235f699e\nmtime: 20211213124823 20211017163517 20211017163516\nctime: \"20210528160149\""
+      "value": "title: III. Anyons\ntags:\n  - chapter\n  - anyons\nlatex_header: \\usepackage[style=apa, backend=biber]{biblatex}\nlatex_header_extra: \\DeclareUnicodeCharacter{2212}{-}\ntransclude: \"[[id:66aff1d3-bd45-45e5-9d31-d4292d76ae8e][FQHE/anyon\n  chapter:Geometrical Phase]]\"\nid: 84c8fdf0-a17d-4610-b644-d298235f699e\nmtime: 20211213124823 20211017163517 20211017163516\nctime: \"20210528160149\""
     },
     {
       "type": "heading",
@@ -36,22 +36,24 @@
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "inlineCode",
-          "value": "Good line to introduce the chapter"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "END"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "inlineCode",
+                  "value": "Good line to introduce the chapter"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -60,7 +62,7 @@
       "children": [
         {
           "type": "text",
-          "value": "The main subject of discussion here will be a new class of (quasi-)particles: anyons. In undergraduate courses, or, if you're lucky, highschool, we learn that two types of particles exist: fermions and bosons. These particles are distinguished by spin, half-integer and integer spin respectively. Anyons, as their name suggests, break this binary and are allowed "
+          "value": "The main subject of discussion here will be a new class of (quasi-)particles:\nanyons. In undergraduate courses, or, if you're lucky, highschool, we learn that two types of particles exist: fermions and bosons. These particles are distinguished by spin, half-integer and integer spin respectively. Anyons, as their name suggests, break this binary and are allowed "
         },
         {
           "type": "emphasis",
@@ -73,7 +75,7 @@
         },
         {
           "type": "text",
-          "value": " type of spin, creating a whole new category of particle."
+          "value": " type of spin,\ncreating a whole new category of particle."
         },
         {
           "type": "text",
@@ -114,7 +116,7 @@
         },
         {
           "type": "text",
-          "value": " height, but "
+          "value": " height,\nbut "
         },
         {
           "type": "emphasis",
@@ -218,7 +220,7 @@
       "children": [
         {
           "type": "text",
-          "value": "In section 4 we work through the FQHE, showing why anyons are involved and, importantly, what idealization play a role in constructing the wave-function. Before doing so, we recap how particles contained in magnetic fields "
+          "value": "In section 4 we work through the FQHE, showing why anyons are involved and,\nimportantly, what idealization play a role in constructing the wave-function.\nBefore doing so, we recap how particles contained in magnetic fields "
         },
         {
           "type": "inlineCode",
@@ -275,7 +277,7 @@
       "children": [
         {
           "type": "text",
-          "value": "In a standard physics undergraduate program, you learn that there are two types of particles, fermions and bosons, which are distinguished by their spin, fermions coming in half-integer multiples "
+          "value": "In a standard physics undergraduate program, you learn that there are two types of particles, fermions and bosons, which are distinguished by their spin,\nfermions coming in half-integer multiples "
         },
         {
           "type": "inlineMath",
@@ -488,7 +490,7 @@
         },
         {
           "type": "text",
-          "value": "\nwhich does just, and say that the wavefunction after exchanging twice (= rotating by 360 degrees) is "
+          "value": "\nwhich does just, and say that the wavefunction after exchanging twice (=\nrotating by 360 degrees) is "
         },
         {
           "type": "inlineMath",
@@ -539,7 +541,7 @@
       "children": [
         {
           "type": "text",
-          "value": "The above argument is too handwavey, so we would like to make it more concrete. The way to define what we mean by \"exchange/ability/\". To start, the suggestively italicized "
+          "value": "The above argument is too handwavey, so we would like to make it more concrete.\nThe way to define what we mean by \"exchange/ability/\". To start, the suggestively italicized "
         },
         {
           "type": "emphasis",
@@ -578,7 +580,7 @@
         },
         {
           "type": "text",
-          "value": " exchanged is of central importance. One natural way of defining this is by looking at all the possible paths the particle can take. We would need to look at the "
+          "value": " exchanged is of central importance.\nOne natural way of defining this is by looking at all the possible paths the particle can take. We would need to look at the "
         },
         {
           "type": "emphasis",
@@ -712,7 +714,7 @@
         },
         {
           "type": "text",
-          "value": ". Here we will first discuss the topological argument, after which we will consider the prequisites for and the geometrical argument itself in Section 3 and 4."
+          "value": ". Here we will first discuss the topological argument,\nafter which we will consider the prequisites for and the geometrical argument itself in Section 3 and 4."
         }
       ]
     },
@@ -777,7 +779,7 @@
         },
         {
           "type": "text",
-          "value": ". For our purposes, since we are looking at the position of a particle in spacetime, we can consider a space to be simply connected if it has no holes. Here a hole is a hole that \"pierces\" the space: the handle in the \"space\" of a coffeecup and the hole in the \"space\" of a donut are prime examples, while the inside of a bottle or a bubble in a glass of coke do not count as \"holes\" for the sake of connectedness. On the contrary, spaces with such holes are called "
+          "value": ". For our purposes,\nsince we are looking at the position of a particle in spacetime, we can consider a space to be simply connected if it has no holes. Here a hole is a hole that\n\"pierces\" the space: the handle in the \"space\" of a coffeecup and the hole in the \"space\" of a donut are prime examples, while the inside of a bottle or a bubble in a glass of coke do not count as \"holes\" for the sake of connectedness.\nOn the contrary, spaces with such holes are called "
         },
         {
           "type": "emphasis",
@@ -910,7 +912,7 @@
       "children": [
         {
           "type": "text",
-          "value": "Phase arises because the empirical outcome of measuring a quantum state involves calculating the modulo-squared of the wavefunction. There are simply (at least) two wavefunctions which arrive at the same outcome if you square them with their complex conjugate: - that wavefunction and plus that wavefunction. They are both perfectly fine mathematical representations of the same state, just like the fact that the square root of 9 can be both -3 and 3. When asked: what is the length of the side of a square field of 9 square meters, the answer is indeterminate: it can be either 3 or -3. Rather than saying it can only be positive, we can be a bit more general and say that the \"phase factor\" in front of the three is unphysical: it simply does not matter for calculating the surface area of the field what it is. We have, of course, some empirical preference for using positive lengths in stead of negative ones, but we do not such physical intuitions for wave functions, as they live in Hilbert Space and we unfortunately only have 4D spacetime to our disposal. Since wavefunctions live in "
+          "value": "Phase arises because the empirical outcome of measuring a quantum state involves calculating the modulo-squared of the wavefunction. There are simply (at least)\ntwo wavefunctions which arrive at the same outcome if you square them with their complex conjugate: - that wavefunction and plus that wavefunction. They are both perfectly fine mathematical representations of the same state, just like the fact that the square root of 9 can be both -3 and 3. When asked: what is the length of the side of a square field of 9 square meters, the answer is indeterminate: it can be either 3 or -3. Rather than saying it can only be positive, we can be a bit more general and say that the \"phase factor\" in front of the three is unphysical: it simply does not matter for calculating the surface area of the field what it is. We have, of course, some empirical preference for using positive lengths in stead of negative ones, but we do not such physical intuitions for wave functions, as they live in Hilbert Space and we unfortunately only have 4D spacetime to our disposal. Since wavefunctions live in "
         },
         {
           "type": "emphasis",
@@ -1290,7 +1292,7 @@
         },
         {
           "type": "text",
-          "value": ". However, now we can pull a trick. We only care about exchanging the particles, right? It seems reasonable, therefore, that the position of the system as a whole does not play in a role in determining all possible positions of the particle, e.g. it should not matter (we assume, quite reasonably) whether we exchange two fermions in our lab on Earth or on Venus. For our purposes, then, we can safely ignore one of the two"
+          "value": ". However, now we can pull a trick. We only care about exchanging the particles, right? It seems reasonable,\ntherefore, that the position of the system as a whole does not play in a role in determining all possible positions of the particle, e.g. it should not matter\n(we assume, quite reasonably) whether we exchange two fermions in our lab on Earth or on Venus. For our purposes, then, we can safely ignore one of the two"
         },
         {
           "type": "inlineMath",
@@ -1397,7 +1399,7 @@
         },
         {
           "type": "text",
-          "value": ", tends to justifying the exclusion of these diagonal points by noting that this configuration space needs to account for fermions, which are subject to the Pauli-exclusion principle and thus cannot intersect. However, this argument presupposes the Pauli-exclusion principle and fermions as a distinct category of particles, which precisely follow from this very argument! The justification clearly begs the question, but this does not appear to bother most. Some attempts have been made to provide a better justification, for instance using the de Broglie-Bohm pilot wave theory ["
+          "value": ", tends to justifying the exclusion of these diagonal points by noting that this configuration space needs to account for fermions, which are subject to the Pauli-exclusion principle and thus cannot intersect. However, this argument presupposes the Pauli-exclusion principle and fermions as a distinct category of particles,\nwhich precisely follow from this very argument! The justification clearly begs the question, but this does not appear to bother most. Some attempts have been made to provide a better justification, for instance using the de Broglie-Bohm pilot wave theory ["
         },
         {
           "type": "cite",
@@ -1758,47 +1760,51 @@
         },
         {
           "type": "text",
-          "value": " corresponding with one particle circling the other, with one crucial caveat: when we move particle 2 halfway around the other, performing in effect a \"half exchange,\" we return back to the same point, as the particles are indistinguishable from one another and we do not care about where their center of mass lies."
+          "value": " corresponding with one particle circling the other, with one crucial caveat: when we move particle 2 halfway around the other, performing in effect a\n\"half exchange,\" we return back to the same point, as the particles are indistinguishable from one another and we do not care about where their center of mass lies."
         }
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "text",
-          "value": "Associate pictures with these paragrahs"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Associate pictures with these paragrahs"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "text",
-          "value": "END"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "Give the loops better names than \"half-exchange\""
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "END"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Give the loops better names than \"half-exchange\""
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1849,7 +1855,7 @@
         },
         {
           "type": "text",
-          "value": " be contracted: imagine the loop of your shoelace closing."
+          "value": " be contracted:\nimagine the loop of your shoelace closing."
         }
       ]
     },
@@ -1928,46 +1934,50 @@
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "text",
-          "value": "Add why this leads to particles, or at least a link to the section where we discuss this"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Add why this leads to particles, or at least a link to the section where we discuss this"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "text",
-          "value": "END"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "Add explanation of why RP2 is equivalent in the relevant respects to R3-delta/S2. This is not obvious for two reasons: Several layers of RP2 "
-        },
-        {
-          "type": "text",
-          "value": " Q', because in Q' paths can move between the layers, and secondly because RP2 is not a sphere and Q' is not R3, so the embedding of the one in the other is not the same. Retractability is important here, see Munkers Ch 9."
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "END"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Add explanation of why RP2 is equivalent in the relevant respects to R3-delta/S2. This is not obvious for two reasons: Several layers of RP2 "
+                },
+                {
+                  "type": "text",
+                  "value": " Q', because in Q' paths can move between the layers, and secondly because RP2 is not a sphere and Q' is not R3, so the embedding of the one in the other is not the same. Retractability is important here, see Munkers Ch 9."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2127,7 +2137,7 @@
         },
         {
           "type": "text",
-          "value": " (\"topologically equivalent\") to a circle in "
+          "value": " (\"topologically equivalent\")\nto a circle in "
         },
         {
           "type": "inlineMath",
@@ -2135,7 +2145,7 @@
         },
         {
           "type": "text",
-          "value": ", and since the circle is multiply-connected with However, just because it is homeomorphic does not mean they are \"the same space\", as"
+          "value": ", and since the circle is multiply-connected with However,\njust because it is homeomorphic does not mean they are \"the same space\", as"
         },
         {
           "type": "inlineMath",
@@ -2229,7 +2239,7 @@
         },
         {
           "type": "text",
-          "value": ", we consider the 1-exchange and 2-exchange paths. Clearly the 1-exchange path is non-contractible again, for the same reasons as before. However, unlike "
+          "value": ", we consider the 1-exchange and 2-exchange paths. Clearly the 1-exchange path is non-contractible again, for the same reasons as before.\nHowever, unlike "
         },
         {
           "type": "inlineMath",
@@ -2350,35 +2360,37 @@
         },
         {
           "type": "text",
-          "value": ": instead of just two types of particles we suddenly have a (countable) infinity of them! As we shall see, this will lead to the anyons being able to take on \"any\" phase."
+          "value": ": instead of just two types of particles we suddenly have a\n(countable) infinity of them! As we shall see, this will lead to the anyons being able to take on \"any\" phase."
         }
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "text",
-          "value": "also add why Q"
-        },
-        {
-          "type": "html",
-          "value": "<sub>2</sub>"
-        },
-        {
-          "type": "text",
-          "value": "' is isomorphic to RP1."
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "END"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "also add why Q"
+                },
+                {
+                  "type": "html",
+                  "value": "<sub>2</sub>"
+                },
+                {
+                  "type": "text",
+                  "value": "' is isomorphic to RP1."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2456,7 +2468,7 @@
         },
         {
           "type": "text",
-          "value": " we have two homotopy classes of paths, the 1-exchange and the 2-exchange. Concatenating these paths is simply traversing the one after the other, resulting in a \"3\"-exchange, which is the same as a 1-exchange and in our group."
+          "value": " we have two homotopy classes of paths, the 1-exchange and the 2-exchange.\nConcatenating these paths is simply traversing the one after the other,\nresulting in a \"3\"-exchange, which is the same as a 1-exchange and in our group."
         }
       ]
     },
@@ -2572,7 +2584,7 @@
       "children": [
         {
           "type": "text",
-          "value": "Fantastic, so we are done, right? Well, yes, sort of, however the point of writing down these groups in addition to simply finding the homotopy classes is that hopefully we are able to do slightly more with the former. While that could be possible with these groups, it might be nicer to relate them to some more thoroughly classified groups in order to save ourselves some work. Additionally, the groups we found are those for "
+          "value": "Fantastic, so we are done, right? Well, yes, sort of, however the point of writing down these groups in addition to simply finding the homotopy classes is that hopefully we are able to do slightly more with the former. While that could be possible with these groups, it might be nicer to relate them to some more thoroughly classified groups in order to save ourselves some work. Additionally,\nthe groups we found are those for "
         },
         {
           "type": "inlineMath",
@@ -2628,6 +2640,10 @@
       "type": "heading",
       "depth": 5,
       "children": [
+        {
+          "type": "text",
+          "value": "TODO "
+        },
         {
           "type": "text",
           "value": "Symmetry group"
@@ -2831,32 +2847,46 @@
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "text",
-          "value": "add figures that show off the difference between braid group and symmetry group"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "add figures that show off the difference between braid group and symmetry group"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "text",
-          "value": "END"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "Add some interesting properties"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Add some interesting properties"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2900,16 +2930,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "END"
         }
       ]
     },
@@ -3018,7 +3038,7 @@
         },
         {
           "type": "text",
-          "value": " of our anyons. While this representation is not entirely accurate (the braid-group is technically only the group of the homotopic paths of the distances with two particles), if we take it to correspond approximately we see why these braids "
+          "value": " of our anyons. While this representation is not entirely accurate\n(the braid-group is technically only the group of the homotopic paths of the distances with two particles), if we take it to correspond approximately we see why these braids "
         },
         {
           "type": "inlineCode",
@@ -3039,22 +3059,24 @@
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "text",
-          "value": "Give more acceptable physical intuition"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "END"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Give more acceptable physical intuition"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3078,6 +3100,10 @@
       "children": [
         {
           "type": "text",
+          "value": "TODO "
+        },
+        {
+          "type": "text",
           "value": "Asides: we are now working in projective space, which is very weird. We need to check whether QM still holds"
         }
       ]
@@ -3086,6 +3112,10 @@
       "type": "heading",
       "depth": 4,
       "children": [
+        {
+          "type": "text",
+          "value": "TODO "
+        },
         {
           "type": "text",
           "value": "Aside: kets stand to states as (universal) covers stand to normal spaces"
@@ -3107,7 +3137,7 @@
       "children": [
         {
           "type": "text",
-          "value": "The explanation of the previous section has left us with a bittersweet feeling. We made some good arguments for the existence of an entirely new class of (pseudo-)particles! Think of all the new physics we could do: quantum computers,.... that's about it, but nonetheless very exciting! However, it came at a rather severe cost: us accepting a problematic idealization, blech! Is there then no other option? No one to save us? Are we doomed to accept platonism? No, luckily we need not stoop so low."
+          "value": "The explanation of the previous section has left us with a bittersweet feeling.\nWe made some good arguments for the existence of an entirely new class of\n(pseudo-)particles! Think of all the new physics we could do: quantum computers,.... that's about it, but nonetheless very exciting! However, it came at a rather severe cost: us accepting a problematic idealization, blech! Is there then no other option? No one to save us? Are we doomed to accept platonism? No, luckily we need not stoop so low."
         }
       ]
     },
@@ -3146,7 +3176,7 @@
         },
         {
           "type": "text",
-          "value": ", anyons take on an exchange-phase that's a multiple of the number exchanges and which depends on the direction the exchange took place, but not much else. It could be any multiple of the winding-number, which does not provide us with much predictive power if we ever want to perform an experiment looking for these buggers. \"But\", I hear you say, \"did ["
+          "value": ", anyons take on an exchange-phase that's a multiple of the number exchanges and which depends on the direction the exchange took place, but not much else. It could be any multiple of the winding-number, which does not provide us with much predictive power if we ever want to perform an experiment looking for these buggers. \"But\",\nI hear you say, \"did ["
         },
         {
           "type": "cite",
@@ -3267,22 +3297,24 @@
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "text",
-          "value": "Improve description of why the dynamical phase is not it"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "END"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Improve description of why the dynamical phase is not it"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3305,22 +3337,24 @@
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "text",
-          "value": "Absolutely horrendous intro."
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "END"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Absolutely horrendous intro."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3350,7 +3384,7 @@
         },
         {
           "type": "text",
-          "value": ". A vector in a real vector space does not have much to vary in addition to its position and length, the only thing left is its angle!"
+          "value": ". A vector in a real vector space does not have much to vary in addition to its position and length,\nthe only thing left is its angle!"
         }
       ]
     },
@@ -3483,7 +3517,7 @@
         },
         {
           "type": "text",
-          "value": "] soon thereafter elucidated, the mystery largely disappears we link it to a more general geometric property: "
+          "value": "]\nsoon thereafter elucidated, the mystery largely disappears we link it to a more general geometric property: "
         },
         {
           "type": "wikiLink",
@@ -3542,7 +3576,7 @@
       "children": [
         {
           "type": "text",
-          "value": "Once you have been certain you returned back to the same spot again, the question now is: which direction are you facing? Given that you never turned around, you might have expected to face England once again. However, to your utter dismay you are still staring down that boring international date line, ocean as far you could see. Despite never turning around, you have ended up turning "
+          "value": "Once you have been certain you returned back to the same spot again, the question now is: which direction are you facing? Given that you never turned around, you might have expected to face England once again. However, to your utter dismay you are still staring down that boring international date line,\nocean as far you could see. Despite never turning around, you have ended up turning "
         },
         {
           "type": "inlineMath",
@@ -3572,7 +3606,7 @@
         },
         {
           "type": "text",
-          "value": ", which is a fancy word for the failure of parallel transport along a certain manifold, in this case the 2-Sphere (in normal people talk: the surface of a sphere). While this may be shocking to our foolhardy protagonist, there is something deeply intuitive about not ending up facing the same direction here. But being intuitive does not mean easy to explain: all we know for now that this has something to do with the curvature of the space we are traversing, but not exactly which value it obtains ."
+          "value": ", which is a fancy word for the failure of parallel transport along a certain manifold, in this case the 2-Sphere (in normal people talk: the surface of a sphere). While this may be shocking to our foolhardy protagonist,\nthere is something deeply intuitive about not ending up facing the same direction here. But being intuitive does not mean easy to explain: all we know for now that this has something to do with the curvature of the space we are traversing, but not exactly which value it obtains ."
         }
       ]
     },
@@ -3595,7 +3629,7 @@
       "children": [
         {
           "type": "text",
-          "value": "Turns out this also works in QM! The berry phase does this for us. So great, let's just calculate the Berry phase right? Well, sure, but we cannot just calculate the Berry phase without a Hamiltonian, wavefunction, all that good quantum stuff, for that we need some context."
+          "value": "Turns out this also works in QM! The berry phase does this for us. So great,\nlet's just calculate the Berry phase right? Well, sure, but we cannot just calculate the Berry phase without a Hamiltonian, wavefunction, all that good quantum stuff, for that we need some context."
         }
       ]
     },
@@ -3668,22 +3702,24 @@
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "text",
-          "value": "clean up lambdas and Rs"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "END"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "clean up lambdas and Rs"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3735,12 +3771,24 @@
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "text",
-          "value": "Put this somewhere else, preferably at the end"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Put this somewhere else, preferably at the end"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3905,16 +3953,6 @@
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "END"
-        }
-      ]
-    },
-    {
       "type": "paragraph",
       "children": [
         {
@@ -3998,22 +4036,24 @@
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "text",
-          "value": "justify this slightly better"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "END"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "justify this slightly better"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -4035,22 +4075,24 @@
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "text",
-          "value": "Source"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "END"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Source"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -4064,22 +4106,24 @@
       ]
     },
     {
-      "type": "heading",
-      "depth": 15,
+      "type": "list",
+      "ordered": false,
+      "spread": false,
       "children": [
         {
-          "type": "text",
-          "value": "Put this in words, not bullet points"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "depth": 15,
-      "children": [
-        {
-          "type": "text",
-          "value": "END"
+          "type": "listItem",
+          "checked": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Put this in words, not bullet points"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -4280,7 +4324,7 @@
       "children": [
         {
           "type": "text",
-          "value": "In order to do as little physics as is possibly required, I will skip most of the justification for the quantum formalism of the QHE (quantizing the classical Hamiltonian, finding the commutators) and many of the intermediate steps to arrive at the relevant results. I point the interested reader to ["
+          "value": "In order to do as little physics as is possibly required, I will skip most of the justification for the quantum formalism of the QHE (quantizing the classical Hamiltonian, finding the commutators) and many of the intermediate steps to arrive at the relevant results. I point the interested reader to\n["
         },
         {
           "type": "cite",
@@ -4295,7 +4339,7 @@
         },
         {
           "type": "text",
-          "value": "[[]]] for a quite accessible and to [cite//b:@Arovas2020] for a more thorough pedagogical discussion of these issues, and to ["
+          "value": "[[]]] for a quite accessible and to [cite//b:@Arovas2020] for a more thorough pedagogical discussion of these issues, and to\n["
         },
         {
           "type": "cite",
@@ -4625,7 +4669,7 @@
       "children": [
         {
           "type": "text",
-          "value": "We started by saying that the plateaux in the IQHE correspond to the various filled Landau levels of the simple particle in a magnetic field system. We still need to prove this, namely by deriving the conductivity for the Hall states. This can get rather messy, so I will show put the derivation for a single particle here, and the more general derivation of the so called "
+          "value": "We started by saying that the plateaux in the IQHE correspond to the various filled Landau levels of the simple particle in a magnetic field system. We still need to prove this, namely by deriving the conductivity for the Hall states.\nThis can get rather messy, so I will show put the derivation for a single particle here, and the more general derivation of the so called "
         },
         {
           "type": "emphasis",
@@ -4938,7 +4982,7 @@
       "children": [
         {
           "type": "text",
-          "value": "Correct you are: in general we demand that a) the strength of the disorder (which we model as a random potential) ought to be small relative to the Landau level splitting and b) the disorder does not dramatically vary on small scales, such that for a particle influenced by it the potential can locally be seen as constant. We can express these as"
+          "value": "Correct you are: in general we demand that a) the strength of the disorder\n(which we model as a random potential) ought to be small relative to the Landau level splitting and b) the disorder does not dramatically vary on small scales,\nsuch that for a particle influenced by it the potential can locally be seen as constant. We can express these as"
         }
       ]
     },
@@ -5048,7 +5092,7 @@
       "children": [
         {
           "type": "text",
-          "value": "Following the naming convention of the IQHE, the Fractional Quantum Hall Effect (FQHE) refers to the observation of plateaux at "
+          "value": "Following the naming convention of the IQHE, the Fractional Quantum Hall Effect\n(FQHE) refers to the observation of plateaux at "
         },
         {
           "type": "emphasis",
@@ -5078,7 +5122,7 @@
       "children": [
         {
           "type": "text",
-          "value": "The goal of this expos\\'e is twofold. First we want to gain a general understanding of how the FQHE is thought about in general: what assumptions go into calculating the relevant parameters, which idealizations are noteworthy, etc. The other main goal is the 'derivation' of the Laughlin wavefunction, the wavefunction used to describe the FQH system, and its excitations. At the end we will arrive at the problem of calculating the exchange statistics of these excitations, which turn out to be "
+          "value": "The goal of this expos\\'e is twofold. First we want to gain a general understanding of how the FQHE is thought about in general: what assumptions go into calculating the relevant parameters, which idealizations are noteworthy,\netc. The other main goal is the 'derivation' of the Laughlin wavefunction, the wavefunction used to describe the FQH system, and its excitations. At the end we will arrive at the problem of calculating the exchange statistics of these excitations, which turn out to be "
         },
         {
           "type": "emphasis",
@@ -5091,7 +5135,7 @@
         },
         {
           "type": "text",
-          "value": ", but not actually compute them yet: this will be done in section "
+          "value": ", but not actually compute them yet:\nthis will be done in section "
         },
         {
           "type": "text",
@@ -5112,7 +5156,7 @@
         },
         {
           "type": "text",
-          "value": ", which is where most of the FQHE physics is done. As a result the reasoning cannot be as rigorous as before. In the IQHE we could pretend that all the states occupied the same Landau level, which allowed us to calculate the wavefunctions and energy levels, leading to the derivation of the Hall resistivity and confirm our suspicion that the plateaux correspond to fully filled Landau levels. Only after doing that did we let go of that idealization and allow the degeneracy to be lifted in order to argue that the plateaux were robust."
+          "value": ",\nwhich is where most of the FQHE physics is done. As a result the reasoning cannot be as rigorous as before. In the IQHE we could pretend that all the states occupied the same Landau level, which allowed us to calculate the wavefunctions and energy levels, leading to the derivation of the Hall resistivity and confirm our suspicion that the plateaux correspond to fully filled Landau levels. Only after doing that did we let go of that idealization and allow the degeneracy to be lifted in order to argue that the plateaux were robust."
         }
       ]
     },
@@ -5125,7 +5169,7 @@
         },
         {
           "type": "text",
-          "value": " and then gradually compute a better and better approximation to the actual wavefunction. While this is fine for simple two-electron systems, the number of electrons in a QH system is closer to "
+          "value": " and then gradually compute a better and better approximation to the actual wavefunction. While this is fine for simple two-electron systems,\nthe number of electrons in a QH system is closer to "
         },
         {
           "type": "inlineMath",
@@ -5133,7 +5177,7 @@
         },
         {
           "type": "text",
-          "value": ". That is a rather large matrix to diagonalize, not even close to possible to do numerically. Therefore, we need to pull some tricks."
+          "value": ". That is a rather large matrix to diagonalize, not even close to possible to do numerically.\nTherefore, we need to pull some tricks."
         }
       ]
     },
@@ -5189,7 +5233,7 @@
       "children": [
         {
           "type": "text",
-          "value": "Laughlin of course did not just simply write down a bunch of wavefunction and pick the one he liked best, it is motivated by some observations from the system and from some general conditions we have to place on any wavefunction. Specifically, in a previous paper ["
+          "value": "Laughlin of course did not just simply write down a bunch of wavefunction and pick the one he liked best, it is motivated by some observations from the system and from some general conditions we have to place on any wavefunction.\nSpecifically, in a previous paper ["
         },
         {
           "type": "cite",

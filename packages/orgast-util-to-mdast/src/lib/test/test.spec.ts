@@ -85,11 +85,21 @@ describe.each(dir)('parses correctly for %s', (name: string) => {
   }
   const proc = fromOrg(config)
 
-  const orgTree = removePosition(proc.parse(orgIn), true)
-  writeFileSync(
-    join(fixtures, name, 'debugORG.json'),
-    JSON.stringify(orgTree, null, 2)
-  )
+  let orgTree: OrgData = {
+    type: 'org-data',
+    children: [],
+    contentsBegin: 0,
+    contentsEnd: 0,
+  }
+  try {
+    orgTree = removePosition(proc.parse(orgIn), true) as OrgData
+    writeFileSync(
+      join(fixtures, name, 'debugORG.json'),
+      JSON.stringify(orgTree, null, 2)
+    )
+  } catch (e) {
+    console.error(e)
+  }
 
   // console.dir(xmlTree, { depth: null })
 
@@ -111,7 +121,7 @@ describe.each(dir)('parses correctly for %s', (name: string) => {
   // test('should match snapshot', () => {
   //   expect(lx).toMatchSnapshot()
   // })
-  test('should match predefined thing', () => {
+  it('should match predefined thing', () => {
     expect(mdTree).toEqual(mdOut)
   })
 })

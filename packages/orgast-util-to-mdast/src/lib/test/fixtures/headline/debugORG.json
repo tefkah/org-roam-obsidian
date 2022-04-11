@@ -1,12 +1,12 @@
 {
   "type": "org-data",
   "contentsBegin": 0,
-  "contentsEnd": 92,
+  "contentsEnd": 104,
   "children": [
     {
       "type": "section",
       "contentsBegin": 0,
-      "contentsEnd": 92,
+      "contentsEnd": 104,
       "children": [
         {
           "type": "headline",
@@ -15,7 +15,10 @@
           "priority": null,
           "commented": false,
           "rawValue": "heading 1",
-          "tags": [],
+          "tags": [
+            "tag1",
+            "tag2"
+          ],
           "contentsBegin": 2,
           "contentsEnd": 11,
           "children": [
@@ -27,8 +30,8 @@
         },
         {
           "type": "section",
-          "contentsBegin": 13,
-          "contentsEnd": 92,
+          "contentsBegin": 25,
+          "contentsEnd": 104,
           "children": [
             {
               "type": "headline",
@@ -38,8 +41,8 @@
               "commented": false,
               "rawValue": "heading 2",
               "tags": [],
-              "contentsBegin": 16,
-              "contentsEnd": 25,
+              "contentsBegin": 28,
+              "contentsEnd": 37,
               "children": [
                 {
                   "type": "text",
@@ -49,8 +52,8 @@
             },
             {
               "type": "section",
-              "contentsBegin": 27,
-              "contentsEnd": 92,
+              "contentsBegin": 39,
+              "contentsEnd": 104,
               "children": [
                 {
                   "type": "headline",
@@ -60,8 +63,8 @@
                   "commented": false,
                   "rawValue": "heading 3",
                   "tags": [],
-                  "contentsBegin": 31,
-                  "contentsEnd": 40,
+                  "contentsBegin": 43,
+                  "contentsEnd": 52,
                   "children": [
                     {
                       "type": "text",
@@ -71,8 +74,8 @@
                 },
                 {
                   "type": "section",
-                  "contentsBegin": 42,
-                  "contentsEnd": 92,
+                  "contentsBegin": 54,
+                  "contentsEnd": 104,
                   "children": [
                     {
                       "type": "headline",
@@ -82,8 +85,8 @@
                       "commented": false,
                       "rawValue": "heading 4",
                       "tags": [],
-                      "contentsBegin": 47,
-                      "contentsEnd": 56,
+                      "contentsBegin": 59,
+                      "contentsEnd": 68,
                       "children": [
                         {
                           "type": "text",
@@ -93,8 +96,8 @@
                     },
                     {
                       "type": "section",
-                      "contentsBegin": 58,
-                      "contentsEnd": 92,
+                      "contentsBegin": 70,
+                      "contentsEnd": 104,
                       "children": [
                         {
                           "type": "headline",
@@ -104,8 +107,8 @@
                           "commented": false,
                           "rawValue": "heading 5",
                           "tags": [],
-                          "contentsBegin": 64,
-                          "contentsEnd": 73,
+                          "contentsBegin": 76,
+                          "contentsEnd": 85,
                           "children": [
                             {
                               "type": "text",
@@ -115,8 +118,8 @@
                         },
                         {
                           "type": "section",
-                          "contentsBegin": 75,
-                          "contentsEnd": 92,
+                          "contentsBegin": 87,
+                          "contentsEnd": 104,
                           "children": [
                             {
                               "type": "headline",
@@ -126,8 +129,8 @@
                               "commented": false,
                               "rawValue": "heading 6",
                               "tags": [],
-                              "contentsBegin": 82,
-                              "contentsEnd": 91,
+                              "contentsBegin": 94,
+                              "contentsEnd": 103,
                               "children": [
                                 {
                                   "type": "text",
