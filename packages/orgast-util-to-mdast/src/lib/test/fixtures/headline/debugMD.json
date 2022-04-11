@@ -11,7 +11,7 @@
         },
         {
           "type": "text",
-          "value": "#tag1 #tag2"
+          "value": " #tag1 #tag2"
         }
       ]
     },

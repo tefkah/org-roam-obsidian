@@ -19,6 +19,7 @@ export const list: Handle = (j: J, node: List): MdastList => {
         { ordered: false, spread: false },
         all(j, node)
       ) as MdastList
+    // TODO: Properly support descriptive lists
     case 'descriptive':
       return j(
         node,

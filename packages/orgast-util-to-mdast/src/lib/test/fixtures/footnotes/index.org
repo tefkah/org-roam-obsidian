@@ -1,0 +1,6 @@
+Some text with a footnote[fn:1]
+
+
+* Footnotes
+
+[fn:1] A footnote is note that's footy

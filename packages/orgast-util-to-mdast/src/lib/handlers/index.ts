@@ -22,6 +22,8 @@ import { link } from './link'
 import { citation } from './citation'
 import { tableCell } from './tableCell'
 import { tableRow } from './tableRow'
+import { footnoteReference } from './footnoteReference'
+import { footnoteDefinition } from './footnoteDefinition'
 
 export const handlers = {
   // 'org-data': orgData,
@@ -35,7 +37,8 @@ export const handlers = {
   // 'verse-block': verseBlock,
   // 'center-block': centerBlock,
   // 'special-block': specialBlock,
-  // 'footnote-definition': footnoteDefinition,
+  'footnote-definition': footnoteDefinition,
+
   table,
   'table-row': tableRow,
   'table-cell': tableCell,
@@ -69,7 +72,7 @@ export const handlers = {
   subscript,
   text,
   // timestamp,
-  // 'footnote-reference': footnoteReference,
+  'footnote-reference': footnoteReference,
   'latex-fragment': latexFragment,
   // entity,
   // 'table-cell': tableCell,

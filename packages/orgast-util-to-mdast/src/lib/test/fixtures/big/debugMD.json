@@ -78,6 +78,11 @@
           "value": " type of spin,\ncreating a whole new category of particle."
         },
         {
+          "type": "footnoteReference",
+          "identifier": "4",
+          "children": []
+        },
+        {
           "type": "text",
           "value": " While anyons are fascinating in their own right, we are interested in them because, according to the canon explanation, anyons are two-dimensional particles. More suggestively, the space they occupy cannot be "
         },
@@ -533,6 +538,11 @@
         {
           "type": "text",
           "value": ". The latter are bosons and the former are fermions."
+        },
+        {
+          "type": "footnoteReference",
+          "identifier": "7",
+          "children": []
         }
       ]
     },
@@ -594,6 +604,11 @@
         {
           "type": "text",
           "value": " of the particles: the possible configurations of them and connections between these configurations."
+        },
+        {
+          "type": "footnoteReference",
+          "identifier": "8",
+          "children": []
         },
         {
           "type": "text",
@@ -1303,6 +1318,11 @@
           "value": " s and simply focus on the relative distance and orientation of the two particles with each other."
         },
         {
+          "type": "footnoteReference",
+          "identifier": "9",
+          "children": []
+        },
+        {
           "type": "text",
           "value": " This simplifies the problem of finding the configuration space significantly."
         }
@@ -1338,6 +1358,11 @@
         {
           "type": "text",
           "value": " from our current configuration space,"
+        },
+        {
+          "type": "footnoteReference",
+          "identifier": "10",
+          "children": []
         },
         {
           "type": "text",
@@ -2351,6 +2376,11 @@
           "value": " not homotopy equivalent to a either a point nor a 2-exchange. Moreover, it matters which way we go about exchanging these particles: a clockwise loop and an anti-clockwise loop cannot be smoothly deformed into one another, as the path would have to cross the origin. Therefore we apparently have the same number of possible paths as there are integers!"
         },
         {
+          "type": "footnoteReference",
+          "identifier": "11",
+          "children": []
+        },
+        {
           "type": "text",
           "value": " A bit of a step up from the situation in "
         },
@@ -2459,6 +2489,11 @@
           "value": " consisting of the set of equivalence classes of homotopy equivalent paths and path-concatenation as the group action."
         },
         {
+          "type": "footnoteReference",
+          "identifier": "12",
+          "children": []
+        },
+        {
           "type": "text",
           "value": "\nPath concatenation is what it sounds like: in the fundamental group of "
         },
@@ -2469,6 +2504,11 @@
         {
           "type": "text",
           "value": " we have two homotopy classes of paths, the 1-exchange and the 2-exchange.\nConcatenating these paths is simply traversing the one after the other,\nresulting in a \"3\"-exchange, which is the same as a 1-exchange and in our group."
+        },
+        {
+          "type": "footnoteReference",
+          "identifier": "13",
+          "children": []
         }
       ]
     },
@@ -3607,6 +3647,11 @@
         {
           "type": "text",
           "value": ", which is a fancy word for the failure of parallel transport along a certain manifold, in this case the 2-Sphere (in normal people talk: the surface of a sphere). While this may be shocking to our foolhardy protagonist,\nthere is something deeply intuitive about not ending up facing the same direction here. But being intuitive does not mean easy to explain: all we know for now that this has something to do with the curvature of the space we are traversing, but not exactly which value it obtains ."
+        },
+        {
+          "type": "footnoteReference",
+          "identifier": "4",
+          "children": []
         }
       ]
     },
@@ -3906,6 +3951,11 @@
                 {
                   "type": "text",
                   "value": "], this is a problem for those with nominalist inclinations"
+                },
+                {
+                  "type": "footnoteReference",
+                  "identifier": "1",
+                  "children": []
                 },
                 {
                   "type": "text",
@@ -4890,8 +4940,18 @@
           "value": "    Experimental samples are inherently dirty (here meaning: containing other\n    elements than the intended sample"
         },
         {
+          "type": "footnoteReference",
+          "identifier": "5",
+          "children": []
+        },
+        {
           "type": "text",
           "value": "), and these impurities require us to\n    re-examine our previous claims somewhat"
+        },
+        {
+          "type": "footnoteReference",
+          "identifier": "6",
+          "children": []
         },
         {
           "type": "text",
@@ -5515,6 +5575,11 @@
             {
               "type": "text",
               "value": "This is what people mean when they say that the LWF falls into the same universality class as the actual wavefunction, as any wavefunction needs to account for this."
+            },
+            {
+              "type": "footnoteReference",
+              "identifier": "3",
+              "children": []
             }
           ]
         }
@@ -6060,216 +6125,294 @@
       ]
     },
     {
-      "type": "paragraph",
+      "type": "footnoteDefinition",
+      "identifier": "13",
       "children": [
         {
-          "type": "text",
-          "value": "As an exercise, check whether this group satisfies the axioms of a "
-        },
-        {
-          "type": "wikiLink",
-          "value": "Group",
-          "data": {
-            "permalink": "0bbb9ce7-191f-4fde-8924-cad8a3886e2e",
-            "alias": "Group",
-            "exists": false
-          }
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "children": [
-        {
-          "type": "text",
-          "value": "Technically the fundamental group is only defined at a specific point "
-        },
-        {
-          "type": "inlineMath",
-          "value": "x_0"
-        },
-        {
-          "type": "text",
-          "value": ". However, if the space is "
-        },
-        {
-          "type": "emphasis",
+          "type": "paragraph",
           "children": [
             {
               "type": "text",
-              "value": "path-connected"
+              "value": "As an exercise, check whether this group satisfies the axioms of a "
+            },
+            {
+              "type": "wikiLink",
+              "value": "Group",
+              "data": {
+                "permalink": "0bbb9ce7-191f-4fde-8924-cad8a3886e2e",
+                "alias": "Group",
+                "exists": false
+              }
             }
           ]
-        },
-        {
-          "type": "text",
-          "value": ", roughly meaning that it is possible to draw a path between any to points in the space, the fundamental groups at all points are isomorphic. All the spaces under consideration are path-connected, so I leave out this detail. An example of a non-path-connected space is the real line minus the origin, "
-        },
-        {
-          "type": "inlineMath",
-          "value": "\\mathbb{R} - 0"
-        },
-        {
-          "type": "text",
-          "value": ". It is impossible to draw a path between any point "
-        },
-        {
-          "type": "inlineMath",
-          "value": "<0"
-        },
-        {
-          "type": "text",
-          "value": " to one "
-        },
-        {
-          "type": "inlineMath",
-          "value": ">0"
-        },
-        {
-          "type": "text",
-          "value": "."
         }
       ]
     },
     {
-      "type": "paragraph",
+      "type": "footnoteDefinition",
+      "identifier": "12",
       "children": [
         {
-          "type": "text",
-          "value": "It turns out that the 1-exchange do not turn out to be a separate path, or at least it does not change the number of possible paths, since "
-        },
-        {
-          "type": "inlineMath",
-          "value": "2*\\aleph_0=\\aleph_0"
-        },
-        {
-          "type": "text",
-          "value": ". There are a number of different ways to show this more exactly, but the easiest is to note that "
-        },
-        {
-          "type": "inlineMath",
-          "value": "RP^1"
-        },
-        {
-          "type": "text",
-          "value": " is homeomorphic to the circle, and the 1-exchange is not a separate path there."
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Technically the fundamental group is only defined at a specific point "
+            },
+            {
+              "type": "inlineMath",
+              "value": "x_0"
+            },
+            {
+              "type": "text",
+              "value": ". However, if the space is "
+            },
+            {
+              "type": "emphasis",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "path-connected"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "value": ", roughly meaning that it is possible to draw a path between any to points in the space, the fundamental groups at all points are isomorphic. All the spaces under consideration are path-connected, so I leave out this detail. An example of a non-path-connected space is the real line minus the origin, "
+            },
+            {
+              "type": "inlineMath",
+              "value": "\\mathbb{R} - 0"
+            },
+            {
+              "type": "text",
+              "value": ". It is impossible to draw a path between any point "
+            },
+            {
+              "type": "inlineMath",
+              "value": "<0"
+            },
+            {
+              "type": "text",
+              "value": " to one "
+            },
+            {
+              "type": "inlineMath",
+              "value": ">0"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
         }
       ]
     },
     {
-      "type": "paragraph",
+      "type": "footnoteDefinition",
+      "identifier": "11",
       "children": [
         {
-          "type": "text",
-          "value": "This makes it somewhat difficult to visually relate the \"one particle standing still\" picture to what the configuration space actually represents. Roughly, you can imagine it as the \"moving\" particle returning back to its original position after a rotation of "
-        },
-        {
-          "type": "inlineMath",
-          "value": "\\pi"
-        },
-        {
-          "type": "text",
-          "value": " radians."
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "It turns out that the 1-exchange do not turn out to be a separate path, or at least it does not change the number of possible paths, since "
+            },
+            {
+              "type": "inlineMath",
+              "value": "2*\\aleph_0=\\aleph_0"
+            },
+            {
+              "type": "text",
+              "value": ". There are a number of different ways to show this more exactly, but the easiest is to note that "
+            },
+            {
+              "type": "inlineMath",
+              "value": "RP^1"
+            },
+            {
+              "type": "text",
+              "value": " is homeomorphic to the circle, and the 1-exchange is not a separate path there."
+            }
+          ]
         }
       ]
     },
     {
-      "type": "paragraph",
+      "type": "footnoteDefinition",
+      "identifier": "10",
       "children": [
         {
-          "type": "text",
-          "value": "Another way of thinking about this is to consider one particle to be fixed and the other moving around it."
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "This makes it somewhat difficult to visually relate the \"one particle standing still\" picture to what the configuration space actually represents. Roughly, you can imagine it as the \"moving\" particle returning back to its original position after a rotation of "
+            },
+            {
+              "type": "inlineMath",
+              "value": "\\pi"
+            },
+            {
+              "type": "text",
+              "value": " radians."
+            }
+          ]
         }
       ]
     },
     {
-      "type": "paragraph",
+      "type": "footnoteDefinition",
+      "identifier": "9",
       "children": [
         {
-          "type": "text",
-          "value": "The other framework for considering such exchange is in terms of exchanging all the relevant quantum numbers, effectively mathematically swapping the particles. We shall see that this does not work for defining anyons."
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Another way of thinking about this is to consider one particle to be fixed and the other moving around it."
+            }
+          ]
         }
       ]
     },
     {
-      "type": "paragraph",
+      "type": "footnoteDefinition",
+      "identifier": "8",
       "children": [
         {
-          "type": "text",
-          "value": "Note that this does not directly follow: it could also be the case that particles just sometimes have -1 and other times +1. Empirically, however, we find no such distinction, only dependent on particle type."
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "The other framework for considering such exchange is in terms of exchanging all the relevant quantum numbers, effectively mathematically swapping the particles. We shall see that this does not work for defining anyons."
+            }
+          ]
         }
       ]
     },
     {
-      "type": "paragraph",
+      "type": "footnoteDefinition",
+      "identifier": "7",
       "children": [
         {
-          "type": "text",
-          "value": "The non-dirty sample just discussed is a great example of taking an idealization too seriously: we cannot explain the phenomena in the idealized setting, and have to retrofit extra physics on top of the idealization in order to get a satisfying explanation, only for us to then show in the limit of no impurities we regain our initial idealization. If this limit would not have been smooth (it fortunately is), we would have wasted all this time!"
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Note that this does not directly follow: it could also be the case that particles just sometimes have -1 and other times +1. Empirically, however, we find no such distinction, only dependent on particle type."
+            }
+          ]
         }
       ]
     },
     {
-      "type": "paragraph",
+      "type": "footnoteDefinition",
+      "identifier": "6",
       "children": [
         {
-          "type": "text",
-          "value": "Improved performance of impure 2D materials is an active area of research in material science, see ["
-        },
-        {
-          "type": "cite",
-          "data": {
-            "citeItems": [
-              {
-                "key": "Wang2020"
-              }
-            ]
-          },
-          "value": "@Wang2020"
-        },
-        {
-          "type": "text",
-          "value": "] for a summary of how impurities enhance the conductivity of graphene."
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "The non-dirty sample just discussed is a great example of taking an idealization too seriously: we cannot explain the phenomena in the idealized setting, and have to retrofit extra physics on top of the idealization in order to get a satisfying explanation, only for us to then show in the limit of no impurities we regain our initial idealization. If this limit would not have been smooth (it fortunately is), we would have wasted all this time!"
+            }
+          ]
         }
       ]
     },
     {
-      "type": "paragraph",
+      "type": "footnoteDefinition",
+      "identifier": "5",
       "children": [
         {
-          "type": "text",
-          "value": "Or an infinite number of new particle types, depending on one's preference."
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Improved performance of impure 2D materials is an active area of research in material science, see ["
+            },
+            {
+              "type": "cite",
+              "data": {
+                "citeItems": [
+                  {
+                    "key": "Wang2020"
+                  }
+                ]
+              },
+              "value": "@Wang2020"
+            },
+            {
+              "type": "text",
+              "value": "] for a summary of how impurities enhance the conductivity of graphene."
+            }
+          ]
         }
       ]
     },
     {
-      "type": "paragraph",
+      "type": "footnoteDefinition",
+      "identifier": "4",
       "children": [
         {
-          "type": "text",
-          "value": "The LWF might appear to just be an easy to compute with exemplar of this universality class, but it actually has some other nice features which set it apart from its siblings, see "
-        },
-        {
-          "type": "inlineCode",
-          "value": "other nice feature of LWF"
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Or an infinite number of new particle types, depending on one's preference."
+            }
+          ]
         }
       ]
     },
     {
-      "type": "paragraph",
+      "type": "footnoteDefinition",
+      "identifier": "3",
       "children": [
         {
-          "type": "text",
-          "value": "Scare quotes, as the derivation clearly does not rely on experimental measurement alone. Unfortunately it is not possible to simply measure the number of electrons in a given area."
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "The LWF might appear to just be an easy to compute with exemplar of this universality class, but it actually has some other nice features which set it apart from its siblings, see "
+            },
+            {
+              "type": "inlineCode",
+              "value": "other nice feature of LWF"
+            }
+          ]
         }
       ]
     },
     {
-      "type": "paragraph",
+      "type": "footnoteDefinition",
+      "identifier": "2",
       "children": [
         {
-          "type": "text",
-          "value": "If the reader was not aware of this yet, the author does hold such inclinations."
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Scare quotes, as the derivation clearly does not rely on experimental measurement alone. Unfortunately it is not possible to simply measure the number of electrons in a given area."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "footnoteDefinition",
+      "identifier": "1",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "If the reader was not aware of this yet, the author does hold such inclinations."
+            }
+          ]
         }
       ]
     }

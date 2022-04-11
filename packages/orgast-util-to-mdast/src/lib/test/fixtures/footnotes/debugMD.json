@@ -1,0 +1,44 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Some text with a footnote"
+        },
+        {
+          "type": "footnoteReference",
+          "identifier": "1",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        {
+          "type": "text",
+          "value": "Footnotes"
+        }
+      ]
+    },
+    {
+      "type": "footnoteDefinition",
+      "identifier": "1",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "A footnote is note that's footy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

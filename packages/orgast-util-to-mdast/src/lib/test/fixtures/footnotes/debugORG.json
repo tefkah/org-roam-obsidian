@@ -1,0 +1,70 @@
+{
+  "type": "org-data",
+  "contentsBegin": 0,
+  "contentsEnd": 86,
+  "children": [
+    {
+      "type": "paragraph",
+      "affiliated": {},
+      "contentsBegin": 0,
+      "contentsEnd": 32,
+      "children": [
+        {
+          "type": "text",
+          "value": "Some text with a footnote"
+        },
+        {
+          "type": "footnote-reference",
+          "label": "1",
+          "footnoteType": "standard",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contentsBegin": 34,
+      "contentsEnd": 86,
+      "children": [
+        {
+          "type": "headline",
+          "level": 1,
+          "todoKeyword": null,
+          "priority": null,
+          "commented": false,
+          "rawValue": "Footnotes",
+          "tags": [],
+          "contentsBegin": 36,
+          "contentsEnd": 45,
+          "children": [
+            {
+              "type": "text",
+              "value": "Footnotes"
+            }
+          ]
+        },
+        {
+          "type": "footnote-definition",
+          "affiliated": {},
+          "label": "1",
+          "contentsBegin": 54,
+          "contentsEnd": 86,
+          "children": [
+            {
+              "type": "paragraph",
+              "affiliated": {},
+              "contentsBegin": 54,
+              "contentsEnd": 86,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "A footnote is note that's footy\n"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
