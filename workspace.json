@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "collect-org-roam-links": "packages/collect-org-roam-links",
     "org-to-markdown": "packages/org-to-markdown",
     "orgast-util-to-mdast": "packages/orgast-util-to-mdast",
     "uniorg-remark": "packages/uniorg-remark"

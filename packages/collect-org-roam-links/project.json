@@ -1,0 +1,26 @@
+{
+  "root": "packages/collect-org-roam-links",
+  "sourceRoot": "packages/collect-org-roam-links/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/node:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/collect-org-roam-links",
+        "tsConfig": "packages/collect-org-roam-links/tsconfig.lib.json",
+        "packageJson": "packages/collect-org-roam-links/package.json",
+        "main": "packages/collect-org-roam-links/src/index.ts",
+        "assets": ["packages/collect-org-roam-links/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/collect-org-roam-links/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}
