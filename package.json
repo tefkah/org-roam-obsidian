@@ -43,6 +43,7 @@
     "micromark-extension-mdx": "^1.0.0",
     "orgast-util-to-string": "^0.5.0",
     "orgast-util-visit-ids": "^0.5.0",
+    "readdirp": "^3.6.0",
     "remark-frontmatter": "^4.0.1",
     "remark-gfm": "^3.0.1",
     "remark-html": "^15.0.1",
