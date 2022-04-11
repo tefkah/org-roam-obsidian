@@ -49,7 +49,7 @@ const fromOrg = (config: Options = {}) =>
             return child
           }
           if (['[', ']'].includes(child.value)) return []
-          child.value = child.value.replace(/([^ ])\n([^ ])/g, '$1 $2')
+          child.value = child.value.replace(/(\w)\n(\w)/g, '$1 $2')
           return child
         })
       })
