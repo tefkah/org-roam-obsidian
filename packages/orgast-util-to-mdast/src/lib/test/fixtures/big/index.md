@@ -439,10 +439,10 @@ The magnetic field is perpendicular to the $x,y$-plane, so we define the vector 
 
 ..
 
-\begin{equation}
+$$
 \[\hat{\mathbf{\pi_x}}, \hat{\mathbf{\pi_y}}] = \hat{\mathbf{\pi_x}} \hat{\mathbf{\pi_y}} - \hat{\mathbf{\pi_y}} \hat{\mathbf{\pi_x}} = -ie\hbar B
 \label{eq:momcom}
-\end{equation}
+$$
 
 These allow us to define raising and lowering operators`At this point we introduce new variables. These are raising and lowering operators, entirely analogous to those that we use in the harmonic oscillator. They are defined by`$a= \frac{1}{\sqrt{2e\hbar B}} (\pi_x - i\pi_y) \quad a^\dagger = 1\frac{1}{\sqrt{2e\hbar B}} (\pi_x + i\pi_y)$
 

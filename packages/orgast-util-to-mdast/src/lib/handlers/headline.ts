@@ -23,8 +23,8 @@ export const headline: Handle = (
   }
 
   if (node.tags.length > 0) {
-    node.tags.map((tag) => `#${tag}`).join(' ')
-    node.children.push({ type: 'text', value: 'tags' })
+    const tags = node.tags.map((tag) => `#${tag}`).join(' ')
+    node.children.push({ type: 'text', value: tags })
   }
 
   return j(node, 'heading', { depth: node.level }, all(j, node)) as Heading
