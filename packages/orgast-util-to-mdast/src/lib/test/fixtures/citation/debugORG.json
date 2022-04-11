@@ -1,7 +1,7 @@
 {
   "type": "org-data",
   "contentsBegin": 0,
-  "contentsEnd": 62,
+  "contentsEnd": 38,
   "children": [
     {
       "type": "paragraph",
@@ -40,18 +40,6 @@
         {
           "type": "text",
           "value": "]\n"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "affiliated": {},
-      "contentsBegin": 39,
-      "contentsEnd": 62,
-      "children": [
-        {
-          "type": "text",
-          "value": "[cite//b:@SomeGuy2020]\n"
         }
       ]
     }

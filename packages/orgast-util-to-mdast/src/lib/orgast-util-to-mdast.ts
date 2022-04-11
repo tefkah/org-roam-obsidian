@@ -15,6 +15,9 @@ import {
   MdastFrontMatterContent,
 } from './types'
 import { convert } from 'unist-util-is'
+import { getProperties } from 'orgast-util-properties-to-json'
+import { OrgData } from 'uniorg'
+import YAML from 'yaml'
 
 export { one } from './one'
 export { all } from './all'
@@ -22,7 +25,7 @@ export { handlers as defaultHandlers }
 
 const block = convert(['heading', 'paragraph', 'root'])
 
-export function toMdast(tree: MdastRoot | MdastContent, options?: Options) {
+export function toMdast(tree: OrgData, options?: Options) {
   options = {
     newLines: false,
     checked: '[x]',
@@ -83,7 +86,7 @@ export function toMdast(tree: MdastRoot | MdastContent, options?: Options) {
       checked: options.checked || '[x]',
       unchecked: options.unchecked || '[ ]',
       quotes: options.quotes || ['"'],
-      frontMatter: options?.frontMatter || [],
+      frontMatter: options?.frontMatter || {},
       frontMatterFormat: options.frontMatterFormat,
       keywordFrontMatterMap: options.keywordFrontMatterMap || {
         roam_refs: 'citekey',
@@ -110,19 +113,23 @@ export function toMdast(tree: MdastRoot | MdastContent, options?: Options) {
   // @ts-expect-error: does return a transformer, that does accept any node.
   const result = one(j, tree, undefined)
 
-  const frontMatter = j.frontMatter?.length
-    ? ({
-        type: options?.frontMatterFormat || 'yaml',
-        value: j.frontMatter
-          .map((entry) => `${entry.key}: ${entry.value}`)
-          .join('\n'),
-      } as MdastFrontMatterContent)
+  const propertyDrawer = getProperties(tree)
+  const needsFrontMatter = Object.keys(j.frontMatter).length || propertyDrawer
+  const frontMatterRaw = needsFrontMatter
+    ? { ...(j.frontMatter || {}), ...(propertyDrawer || {}) }
     : null
 
+  const yamlFrontMatter = YAML.stringify(frontMatterRaw).slice(0, -1)
+
+  const frontMatter = {
+    type: 'yaml',
+    value: yamlFrontMatter,
+  } as MdastFrontMatterContent
+
   if (!result) {
-    mdast = { type: 'root', children: frontMatter ? [frontMatter] : [] }
+    mdast = { type: 'root', children: needsFrontMatter ? [frontMatter] : [] }
   } else if (Array.isArray(result)) {
-    frontMatter && result.unshift(frontMatter)
+    needsFrontMatter && result.unshift(frontMatter)
     //@ts-expect-error works just shut up
     mdast = { type: 'root', children: result }
   } else {

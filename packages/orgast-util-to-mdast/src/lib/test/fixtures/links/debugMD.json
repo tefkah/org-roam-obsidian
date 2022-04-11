@@ -3,16 +3,7 @@
   "children": [
     {
       "type": "yaml",
-      "value": "title: Note 1"
-    },
-    {
-      "type": "paragraph",
-      "children": [
-        {
-          "type": "text",
-          "value": "id: aaaa"
-        }
-      ]
+      "value": "title: Note 1\nid: aaaa"
     },
     {
       "type": "heading",

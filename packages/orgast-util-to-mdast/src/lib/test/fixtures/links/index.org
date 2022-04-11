@@ -1,6 +1,7 @@
 :properties:
-id: aaaa
+:id: aaaa
 :end:
+
 #+title: Note 1
 
 [[id:bbbb]]

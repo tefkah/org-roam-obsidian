@@ -1,10 +1,7 @@
 import { italic } from './italic'
 import { all } from '../all'
 import { wrapChildren } from '../util/wrap-children'
-import { tableWrap } from './tableWrap'
 import { table } from './table'
-import { tr } from './tr'
-import { td } from './td'
 import { srcBlock } from './srcBlock'
 import { keyword } from './keyword'
 import { headline } from './headline'
@@ -23,12 +20,15 @@ import { listItem } from './listItem'
 import { comment } from './comments'
 import { link } from './link'
 import { citation } from './citation'
+import { tableCell } from './tableCell'
+import { tableRow } from './tableRow'
 
 export const handlers = {
   // 'org-data': orgData,
   // section,
   // 'property-drawer': propertyDrawer,
-  // drawer,
+  drawer: ignore,
+  'property-drawer': ignore,
   'plain-list': list,
   'list-item': listItem,
   // 'quote-block': quoteBlock,
@@ -36,7 +36,10 @@ export const handlers = {
   // 'center-block': centerBlock,
   // 'special-block': specialBlock,
   // 'footnote-definition': footnoteDefinition,
-  // table,
+  table,
+  'table-row': tableRow,
+  'table-cell': tableCell,
+  properties: ignore,
   headline,
   // planning,
   // 'node-property': nodeProperty,

@@ -32,15 +32,6 @@
           "value": "@SomeGuy2020"
         }
       ]
-    },
-    {
-      "type": "paragraph",
-      "children": [
-        {
-          "type": "text",
-          "value": "[cite//b:@SomeGuy2020]"
-        }
-      ]
     }
   ]
 }

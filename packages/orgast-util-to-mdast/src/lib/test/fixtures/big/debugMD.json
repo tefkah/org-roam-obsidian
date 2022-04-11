@@ -3,19 +3,7 @@
   "children": [
     {
       "type": "yaml",
-      "value": "title: III. Anyons\ntags: \n  - \n  - chapter\n  - anyons\n  - \nlatex_header: \\usepackage[style=apa, backend=biber]{biblatex}\nlatex_header_extra: \\addbibresource{../bibliography/Academic.bib}\nlatex_header_extra: \\DeclareUnicodeCharacter{2212}{-}\ntransclude: [[id:3cb8cc7b-70c4-4613-9f5e-3d73f9c6d476][The configuration space explanation chapter]] :level 2\ntransclude: [[id:654e4bfd-594e-48f2-b6b1-7ad252e1c05c][If particles cannot be closer than the thickness of the strip, the configuration space is approximately 2D]]\ntransclude: [[id:654e4bfd-594e-48f2-b6b1-7ad252e1c05c][If particles cannot be closer than the thickness of the strip, the configuration space is approximately 2D]] :level 3\ntransclude: [[id:66aff1d3-bd45-45e5-9d31-d4292d76ae8e][FQHE/anyon chapter:Geometrical Phase]]"
-    },
-    {
-      "type": "text",
-      "value": "84c8fdf0-a17d-4610-b644-d298235f699e"
-    },
-    {
-      "type": "text",
-      "value": "20211213124823 20211017163517 20211017163516"
-    },
-    {
-      "type": "text",
-      "value": "20210528160149"
+      "value": "title: III. Anyons\ntags:\n  - \"\"\n  - chapter\n  - anyons\n  - \"\"\nlatex_header: \\usepackage[style=apa, backend=biber]{biblatex}\nlatex_header_extra: \\DeclareUnicodeCharacter{2212}{-}\ntransclude: \"[[id:66aff1d3-bd45-45e5-9d31-d4292d76ae8e][FQHE/anyon\n  chapter:Geometrical Phase]]\"\nid: 84c8fdf0-a17d-4610-b644-d298235f699e\nmtime: 20211213124823 20211017163517 20211017163516\nctime: \"20210528160149\""
     },
     {
       "type": "heading",
@@ -1519,15 +1507,6 @@
         {
           "type": "text",
           "value": ", e.g."
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "children": [
-        {
-          "type": "text",
-          "value": "     :ID:       849c9efe-c2a0-4bdd-9dc6-890cdbf82285"
         }
       ]
     },

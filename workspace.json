@@ -3,6 +3,7 @@
   "projects": {
     "collect-org-roam-links": "packages/collect-org-roam-links",
     "org-to-markdown": "packages/org-to-markdown",
+    "orgast-util-properties-to-json": "packages/orgast-util-properties-to-json",
     "orgast-util-to-mdast": "packages/orgast-util-to-mdast",
     "uniorg-remark": "packages/uniorg-remark"
   }

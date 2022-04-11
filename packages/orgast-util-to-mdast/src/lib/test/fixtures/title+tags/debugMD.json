@@ -3,7 +3,7 @@
   "children": [
     {
       "type": "yaml",
-      "value": "title: TITLE\ntags: \n  - tag1\n  - tag2"
+      "value": "title: TITLE\ntags:\n  - tag1\n  - tag2"
     },
     {
       "type": "heading",

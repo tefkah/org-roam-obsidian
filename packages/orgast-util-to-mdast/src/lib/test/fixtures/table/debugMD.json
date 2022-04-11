@@ -1,0 +1,438 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "yaml",
+      "value": "title: The observability of internal, external, global and local symmetries\ntags:\n  - symmetry\nid: b07c52c3-f3d0-47c6-8d55-ad2b9ccdeabe\nmtime: \"20210701200805\"\nctime: \"20210330154142\""
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        {
+          "type": "text",
+          "value": "The observability of internal, external, global and local symmetries"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "children": [
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Observation"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Scope"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "?"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "wikiLink",
+                  "value": "External",
+                  "data": {
+                    "permalink": "a4e0561b-4adb-473c-9d35-8cb29c429c96",
+                    "alias": "External",
+                    "exists": false
+                  }
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "?"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "wikiLink",
+                  "value": "internal",
+                  "data": {
+                    "permalink": "aa5fdff9-863c-4288-88ac-217f69b70cc1",
+                    "alias": "internal",
+                    "exists": false
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": []
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Transformation"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "wikiLink",
+                  "value": "Global",
+                  "data": {
+                    "permalink": "475c6db1-e5a0-4ebb-8291-5454a9e6d12e",
+                    "alias": "Global",
+                    "exists": false
+                  }
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "☑"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Looking out the window while driving at constant speed"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "☑"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "I ("
+                },
+                {
+                  "type": "inlineMath",
+                  "value": "\\alpha - 2p^+"
+                },
+                {
+                  "type": "text",
+                  "value": " ) = I("
+                },
+                {
+                  "type": "inlineMath",
+                  "value": "\\alpha-n-p^+"
+                },
+                {
+                  "type": "text",
+                  "value": ")"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Invariance"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": []
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "☑"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Throwing ball in/outside train"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "☑"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Pigeon on wire does not get zapped"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Transformation"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "wikiLink",
+                  "value": "Local",
+                  "data": {
+                    "permalink": "deba623a-e0d9-4db3-96e3-3cf22681ef43",
+                    "alias": "Local",
+                    "exists": false
+                  }
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "☑"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Looking out window while accelerating"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "☑"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "'t Hooft double slit experiment with phase shift"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Invariance"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": []
+            },
+            {
+              "type": "tableCell",
+              "children": []
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Only by introducing additional variable to account for differences"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": []
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Same as ⬅, but indirect evidence"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": []
+            },
+            {
+              "type": "tableCell",
+              "children": []
+            },
+            {
+              "type": "tableCell",
+              "children": []
+            },
+            {
+              "type": "tableCell",
+              "children": []
+            },
+            {
+              "type": "tableCell",
+              "children": []
+            },
+            {
+              "type": "tableCell",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "From this we can conclude a few things."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "wikiLink",
+          "value": "Local internal symmetries are not directly observable",
+          "data": {
+            "permalink": "ecb99e35-f821-48bc-84c9-2db2559d3bee",
+            "alias": "Local internal symmetries are not directly observable",
+            "exists": false
+          }
+        },
+        {
+          "type": "text",
+          "value": ""
+        },
+        {
+          "type": "wikiLink",
+          "value": "Physical theories must be globally symmetric and can be locally symmetric",
+          "data": {
+            "permalink": "e358c53a-eddc-46f4-b693-d4cc93d7210c",
+            "alias": "Physical theories must be globally symmetric and can be locally symmetric",
+            "exists": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        {
+          "type": "text",
+          "value": "Ref"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "This is completely based on "
+        },
+        {
+          "type": "cite",
+          "data": {
+            "citeItems": [
+              {
+                "key": "Kosso2000"
+              }
+            ]
+          },
+          "value": "@Kosso2000"
+        },
+        {
+          "type": "text",
+          "value": " 's account of symmetries in physics. This is a hotly debated topic in the literature and should not be taken as gospel."
+        }
+      ]
+    }
+  ]
+}

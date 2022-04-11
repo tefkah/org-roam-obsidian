@@ -92,7 +92,7 @@ export interface Context {
   qNesting: number
   handlers: { [handler: string]: Handle }
   document: boolean | undefined
-  frontMatter: [{ key: string; value: string }]
+  frontMatter: { [key: string]: string | string[] }
   keywordFrontMatterMap: { [key: string]: string }
   ignoredKeywords: string[]
   checked: string

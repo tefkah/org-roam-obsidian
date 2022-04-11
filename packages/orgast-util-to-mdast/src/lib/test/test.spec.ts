@@ -22,6 +22,8 @@ import { collectLinks } from 'collect-org-roam-links'
 
 // @ts-expect-error no types for remark-wiki-link sadge
 import remarkWikiLink from 'remark-wiki-link'
+import { OrgData } from 'uniorg'
+import { Paragraph } from 'mdast'
 const isText = convert<Text>('text')
 // const remarkCite = citePlugin as Plugin<
 //   [CitePluginOptions?] | void[],
@@ -34,14 +36,14 @@ const fromOrg = (config: Options = {}) =>
     // @ts-expect-error yaya
     .use(() => {
       return transformer
-      function transformer(tree: MdastRoot | MdastContent) {
+      function transformer(tree: OrgData) {
         return toMdast(tree, config)
       }
     })
     // find cite://b thingies
     // remove excess brackets
     .use(() => (tree) => {
-      visit(tree, 'paragraph', (par) => {
+      visit(tree, 'paragraph', (par: Paragraph) => {
         par.children = par.children.flatMap((child) => {
           if (!isText(child)) {
             return child

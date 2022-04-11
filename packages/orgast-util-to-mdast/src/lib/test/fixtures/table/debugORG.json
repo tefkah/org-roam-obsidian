@@ -1,0 +1,639 @@
+{
+  "type": "org-data",
+  "contentsBegin": 0,
+  "contentsEnd": 1959,
+  "children": [
+    {
+      "type": "property-drawer",
+      "contentsBegin": 13,
+      "contentsEnd": 113,
+      "children": [
+        {
+          "type": "node-property",
+          "key": "ID",
+          "value": "b07c52c3-f3d0-47c6-8d55-ad2b9ccdeabe"
+        },
+        {
+          "type": "node-property",
+          "key": "mtime",
+          "value": "20210701200805"
+        },
+        {
+          "type": "node-property",
+          "key": "ctime",
+          "value": "20210330154142"
+        }
+      ]
+    },
+    {
+      "type": "keyword",
+      "affiliated": {},
+      "key": "TITLE",
+      "value": "The observability of internal, external, global and local symmetries"
+    },
+    {
+      "type": "keyword",
+      "affiliated": {},
+      "key": "FILETAGS",
+      "value": "symmetry"
+    },
+    {
+      "type": "table",
+      "tableType": "org",
+      "tblfm": "",
+      "contentsBegin": 220,
+      "contentsEnd": 1528,
+      "children": [
+        {
+          "type": "table-row",
+          "rowType": "standard",
+          "contentsBegin": 221,
+          "contentsEnd": 469,
+          "children": [
+            {
+              "type": "table-cell",
+              "contentsBegin": 222,
+              "contentsEnd": 233,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Observation"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 239,
+              "contentsEnd": 244,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Scope"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 248,
+              "contentsEnd": 249,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "?"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 254,
+              "contentsEnd": 307,
+              "children": [
+                {
+                  "type": "link",
+                  "format": "bracket",
+                  "linkType": "id",
+                  "rawLink": "id:a4e0561b-4adb-473c-9d35-8cb29c429c96",
+                  "path": "a4e0561b-4adb-473c-9d35-8cb29c429c96",
+                  "contentsBegin": 297,
+                  "contentsEnd": 305,
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "External"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 368,
+              "contentsEnd": 369,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "?"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 374,
+              "contentsEnd": 427,
+              "children": [
+                {
+                  "type": "link",
+                  "format": "bracket",
+                  "linkType": "id",
+                  "rawLink": "id:aa5fdff9-863c-4288-88ac-217f69b70cc1",
+                  "path": "aa5fdff9-863c-4288-88ac-217f69b70cc1",
+                  "contentsBegin": 417,
+                  "contentsEnd": 425,
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "internal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table-row",
+          "rowType": "rule",
+          "contentsBegin": 471,
+          "contentsEnd": 471,
+          "children": []
+        },
+        {
+          "type": "table-row",
+          "rowType": "standard",
+          "contentsBegin": 631,
+          "contentsEnd": 840,
+          "children": [
+            {
+              "type": "table-cell",
+              "contentsBegin": 632,
+              "contentsEnd": 646,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Transformation"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 649,
+              "contentsEnd": 700,
+              "children": [
+                {
+                  "type": "link",
+                  "format": "bracket",
+                  "linkType": "id",
+                  "rawLink": "id:475c6db1-e5a0-4ebb-8291-5454a9e6d12e",
+                  "path": "475c6db1-e5a0-4ebb-8291-5454a9e6d12e",
+                  "contentsBegin": 692,
+                  "contentsEnd": 698,
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "Global"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 703,
+              "contentsEnd": 704,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "☑"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 707,
+              "contentsEnd": 761,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Looking out the window while driving at constant speed"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 776,
+              "contentsEnd": 777,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "☑"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 780,
+              "contentsEnd": 820,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "I ("
+                },
+                {
+                  "type": "latex-fragment",
+                  "value": "$\\alpha - 2p^+$",
+                  "contents": "\\alpha - 2p^+"
+                },
+                {
+                  "type": "text",
+                  "value": " ) = I("
+                },
+                {
+                  "type": "latex-fragment",
+                  "value": "$\\alpha-n-p^+$",
+                  "contents": "\\alpha-n-p^+"
+                },
+                {
+                  "type": "text",
+                  "value": ")"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table-row",
+          "rowType": "standard",
+          "contentsBegin": 842,
+          "contentsEnd": 996,
+          "children": [
+            {
+              "type": "table-cell",
+              "contentsBegin": 843,
+              "contentsEnd": 853,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Invariance"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 867,
+              "contentsEnd": 867,
+              "children": []
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 869,
+              "contentsEnd": 870,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "☑"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 873,
+              "contentsEnd": 903,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Throwing ball in/outside train"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 942,
+              "contentsEnd": 943,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "☑"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 946,
+              "contentsEnd": 980,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Pigeon on wire does not get zapped"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table-row",
+          "rowType": "standard",
+          "contentsBegin": 998,
+          "contentsEnd": 1197,
+          "children": [
+            {
+              "type": "table-cell",
+              "contentsBegin": 999,
+              "contentsEnd": 1013,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Transformation"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 1016,
+              "contentsEnd": 1066,
+              "children": [
+                {
+                  "type": "link",
+                  "format": "bracket",
+                  "linkType": "id",
+                  "rawLink": "id:deba623a-e0d9-4db3-96e3-3cf22681ef43",
+                  "path": "deba623a-e0d9-4db3-96e3-3cf22681ef43",
+                  "contentsBegin": 1059,
+                  "contentsEnd": 1064,
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "Local"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 1070,
+              "contentsEnd": 1071,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "☑"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 1074,
+              "contentsEnd": 1111,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Looking out window while accelerating"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 1143,
+              "contentsEnd": 1144,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "☑"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 1147,
+              "contentsEnd": 1195,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "'t Hooft double slit experiment with phase shift"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table-row",
+          "rowType": "standard",
+          "contentsBegin": 1199,
+          "contentsEnd": 1367,
+          "children": [
+            {
+              "type": "table-cell",
+              "contentsBegin": 1200,
+              "contentsEnd": 1210,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Invariance"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 1224,
+              "contentsEnd": 1224,
+              "children": []
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 1226,
+              "contentsEnd": 1233,
+              "children": [
+                {
+                  "type": "entity",
+                  "useBrackets": false,
+                  "name": "approx",
+                  "latex": "\\approx",
+                  "requireLatexMath": true,
+                  "html": "&asymp;",
+                  "ascii": "[almost equal to]",
+                  "latin1": "[almost equal to]",
+                  "utf8": "≈"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 1238,
+              "contentsEnd": 1304,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Only by introducing additional variable to account for differences"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 1307,
+              "contentsEnd": 1314,
+              "children": [
+                {
+                  "type": "entity",
+                  "useBrackets": false,
+                  "name": "approx",
+                  "latex": "\\approx",
+                  "requireLatexMath": true,
+                  "html": "&asymp;",
+                  "ascii": "[almost equal to]",
+                  "latin1": "[almost equal to]",
+                  "utf8": "≈"
+                }
+              ]
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 1319,
+              "contentsEnd": 1351,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Same as ⬅, but indirect evidence"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table-row",
+          "rowType": "standard",
+          "contentsBegin": 1369,
+          "contentsEnd": 1527,
+          "children": [
+            {
+              "type": "table-cell",
+              "contentsBegin": 1385,
+              "contentsEnd": 1385,
+              "children": []
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 1394,
+              "contentsEnd": 1394,
+              "children": []
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 1400,
+              "contentsEnd": 1400,
+              "children": []
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 1469,
+              "contentsEnd": 1469,
+              "children": []
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 1475,
+              "contentsEnd": 1475,
+              "children": []
+            },
+            {
+              "type": "table-cell",
+              "contentsBegin": 1526,
+              "contentsEnd": 1526,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "affiliated": {},
+      "contentsBegin": 1530,
+      "contentsEnd": 1570,
+      "children": [
+        {
+          "type": "text",
+          "value": "From this we can conclude a few things.\n"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "affiliated": {},
+      "contentsBegin": 1571,
+      "contentsEnd": 1789,
+      "children": [
+        {
+          "type": "link",
+          "format": "bracket",
+          "linkType": "id",
+          "rawLink": "id:ecb99e35-f821-48bc-84c9-2db2559d3bee",
+          "path": "ecb99e35-f821-48bc-84c9-2db2559d3bee",
+          "contentsBegin": 1614,
+          "contentsEnd": 1667,
+          "children": [
+            {
+              "type": "text",
+              "value": "Local internal symmetries are not directly observable"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": "\n"
+        },
+        {
+          "type": "link",
+          "format": "bracket",
+          "linkType": "id",
+          "rawLink": "id:e358c53a-eddc-46f4-b693-d4cc93d7210c",
+          "path": "e358c53a-eddc-46f4-b693-d4cc93d7210c",
+          "contentsBegin": 1713,
+          "contentsEnd": 1786,
+          "children": [
+            {
+              "type": "text",
+              "value": "Physical theories must be globally symmetric and can be locally symmetric"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contentsBegin": 1790,
+      "contentsEnd": 1959,
+      "children": [
+        {
+          "type": "headline",
+          "level": 1,
+          "todoKeyword": null,
+          "priority": null,
+          "commented": false,
+          "rawValue": "Ref",
+          "tags": [],
+          "contentsBegin": 1792,
+          "contentsEnd": 1795,
+          "children": [
+            {
+              "type": "text",
+              "value": "Ref"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "affiliated": {},
+          "contentsBegin": 1796,
+          "contentsEnd": 1959,
+          "children": [
+            {
+              "type": "text",
+              "value": "This is completely based on "
+            },
+            {
+              "type": "link",
+              "format": "plain",
+              "linkType": "cite",
+              "rawLink": "cite:Kosso2000",
+              "path": "Kosso2000",
+              "children": []
+            },
+            {
+              "type": "text",
+              "value": " 's account of symmetries in physics. This is a hotly debated topic in the literature and should not be taken as gospel.\n"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
