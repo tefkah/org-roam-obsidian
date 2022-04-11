@@ -1,0 +1,34 @@
+{
+  "root": "packages/orgast-util-properties-to-json",
+  "sourceRoot": "packages/orgast-util-properties-to-json/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/node:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/orgast-util-properties-to-json",
+        "tsConfig": "packages/orgast-util-properties-to-json/tsconfig.lib.json",
+        "packageJson": "packages/orgast-util-properties-to-json/package.json",
+        "main": "packages/orgast-util-properties-to-json/src/index.ts",
+        "assets": ["packages/orgast-util-properties-to-json/*.md"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/orgast-util-properties-to-json"],
+      "options": {
+        "jestConfig": "packages/orgast-util-properties-to-josn/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/orgast-util-properties-to-json/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}
