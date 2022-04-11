@@ -1,0 +1,18 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "math",
+      "value": "f(x) = x^2"
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "math",
+          "value": "f(x) = x^2"
+        }
+      ]
+    }
+  ]
+}

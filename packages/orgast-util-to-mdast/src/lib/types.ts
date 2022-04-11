@@ -1,4 +1,5 @@
 import { Node as UnistNode, Parent as UnistParent } from 'unist'
+import { InlineCiteNode } from '@benrbray/mdast-util-cite'
 
 import {
   Parent as MdastParent,
@@ -14,7 +15,7 @@ import {} from 'micromark-extension-gfm'
 type MdastFrontMatterContent =
   FrontmatterContentMap[keyof FrontmatterContentMap]
 
-type MdastContent = Content | MdastFrontMatterContent
+type MdastContent = Content | MdastFrontMatterContent | InlineCiteNode
 import {
   //Node,
   GreaterElement as OrgastParent,
@@ -24,6 +25,7 @@ import {
   Element as OrgastElement,
   Text as OrgastText,
   OrgData as OrgastRoot,
+  RecursiveObject as OrgastRecursiveObject,
 } from 'uniorg'
 
 type OrgastContent = GreaterElementType | ElementType | ObjectType | OrgastRoot
@@ -51,7 +53,7 @@ export interface Options {
 export type Handle = (
   j: J,
   node: any,
-  parent?: OrgastParent
+  parent?: OrgastParent | OrgastElement | OrgastObject
 ) => MdastContent | Array<MdastContent> | void
 
 export interface Context {
@@ -110,6 +112,7 @@ export type {
   MdastPhrasingContent,
   MdastFrontMatterContent,
   OrgastText as Text,
+  OrgastRecursiveObject,
 }
 
 export type Parents = Extract<

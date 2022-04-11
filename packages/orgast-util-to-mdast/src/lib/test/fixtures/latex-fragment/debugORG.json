@@ -1,0 +1,20 @@
+{
+  "type": "org-data",
+  "contentsBegin": 0,
+  "contentsEnd": 15,
+  "children": [
+    {
+      "type": "paragraph",
+      "affiliated": {},
+      "contentsBegin": 0,
+      "contentsEnd": 15,
+      "children": [
+        {
+          "type": "latex-fragment",
+          "value": "$\\frac{1}{2} $",
+          "contents": "\\frac{1}{2} "
+        }
+      ]
+    }
+  ]
+}

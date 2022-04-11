@@ -1,0 +1,19 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "yaml",
+      "value": "tags: \n  - tag1\n  - tag2"
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        {
+          "type": "text",
+          "value": "TITLE"
+        }
+      ]
+    }
+  ]
+}

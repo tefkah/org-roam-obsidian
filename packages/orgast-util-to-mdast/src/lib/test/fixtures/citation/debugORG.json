@@ -1,0 +1,59 @@
+{
+  "type": "org-data",
+  "contentsBegin": 0,
+  "contentsEnd": 62,
+  "children": [
+    {
+      "type": "paragraph",
+      "affiliated": {},
+      "contentsBegin": 0,
+      "contentsEnd": 17,
+      "children": [
+        {
+          "type": "link",
+          "format": "plain",
+          "linkType": "cite",
+          "rawLink": "cite:SomeGuy2020",
+          "path": "SomeGuy2020",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "affiliated": {},
+      "contentsBegin": 18,
+      "contentsEnd": 38,
+      "children": [
+        {
+          "type": "text",
+          "value": "["
+        },
+        {
+          "type": "link",
+          "format": "plain",
+          "linkType": "cite",
+          "rawLink": "cite:@SomeGuy2020",
+          "path": "@SomeGuy2020",
+          "children": []
+        },
+        {
+          "type": "text",
+          "value": "]\n"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "affiliated": {},
+      "contentsBegin": 39,
+      "contentsEnd": 62,
+      "children": [
+        {
+          "type": "text",
+          "value": "[cite//b:@SomeGuy2020]\n"
+        }
+      ]
+    }
+  ]
+}

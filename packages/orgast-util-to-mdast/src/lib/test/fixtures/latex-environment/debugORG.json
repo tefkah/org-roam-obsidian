@@ -1,0 +1,25 @@
+{
+  "type": "org-data",
+  "contentsBegin": 0,
+  "contentsEnd": 67,
+  "children": [
+    {
+      "type": "latex-environment",
+      "affiliated": {},
+      "value": "\\begin{equation}\n      f(x) = x^2\n\\end{equation}"
+    },
+    {
+      "type": "paragraph",
+      "affiliated": {},
+      "contentsBegin": 50,
+      "contentsEnd": 67,
+      "children": [
+        {
+          "type": "latex-fragment",
+          "value": "$$\nf(x) = x^2\n$$",
+          "contents": "\nf(x) = x^2\n"
+        }
+      ]
+    }
+  ]
+}

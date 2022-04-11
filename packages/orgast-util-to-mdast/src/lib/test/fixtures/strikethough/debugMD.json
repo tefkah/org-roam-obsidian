@@ -1,0 +1,19 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "delete",
+          "children": [
+            {
+              "type": "text",
+              "value": "strikethough"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

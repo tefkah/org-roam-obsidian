@@ -1,0 +1,14 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "html",
+          "value": "<u>underline</u>"
+        }
+      ]
+    }
+  ]
+}

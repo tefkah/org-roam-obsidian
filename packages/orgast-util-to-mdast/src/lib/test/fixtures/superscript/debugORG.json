@@ -1,0 +1,30 @@
+{
+  "type": "org-data",
+  "contentsBegin": 0,
+  "contentsEnd": 13,
+  "children": [
+    {
+      "type": "paragraph",
+      "affiliated": {},
+      "contentsBegin": 0,
+      "contentsEnd": 13,
+      "children": [
+        {
+          "type": "text",
+          "value": "super"
+        },
+        {
+          "type": "superscript",
+          "contentsBegin": 6,
+          "contentsEnd": 12,
+          "children": [
+            {
+              "type": "text",
+              "value": "script"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

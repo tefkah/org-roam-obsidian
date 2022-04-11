@@ -1,0 +1,26 @@
+{
+  "type": "org-data",
+  "contentsBegin": 0,
+  "contentsEnd": 15,
+  "children": [
+    {
+      "type": "paragraph",
+      "affiliated": {},
+      "contentsBegin": 0,
+      "contentsEnd": 15,
+      "children": [
+        {
+          "type": "strike-through",
+          "contentsBegin": 1,
+          "contentsEnd": 13,
+          "children": [
+            {
+              "type": "text",
+              "value": "strikethough"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

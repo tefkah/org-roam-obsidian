@@ -1,0 +1,13 @@
+{
+  "type": "org-data",
+  "contentsBegin": 0,
+  "contentsEnd": 105,
+  "children": [
+    {
+      "type": "src-block",
+      "affiliated": {},
+      "language": "language=\"js\"",
+      "value": "export default async function jemama(){\n  console.log('is cringe')\n}\n"
+    }
+  ]
+}

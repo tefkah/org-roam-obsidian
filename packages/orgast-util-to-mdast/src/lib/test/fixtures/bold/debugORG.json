@@ -1,0 +1,26 @@
+{
+  "type": "org-data",
+  "contentsBegin": 0,
+  "contentsEnd": 7,
+  "children": [
+    {
+      "type": "paragraph",
+      "affiliated": {},
+      "contentsBegin": 0,
+      "contentsEnd": 7,
+      "children": [
+        {
+          "type": "bold",
+          "contentsBegin": 1,
+          "contentsEnd": 5,
+          "children": [
+            {
+              "type": "text",
+              "value": "bold"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

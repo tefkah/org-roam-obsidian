@@ -122,6 +122,7 @@ export function toMdast(tree: MdastRoot | MdastContent, options?: Options) {
     mdast = { type: 'root', children: frontMatter ? [frontMatter] : [] }
   } else if (Array.isArray(result)) {
     frontMatter && result.unshift(frontMatter)
+    //@ts-expect-error works just shut up
     mdast = { type: 'root', children: result }
   } else {
     mdast = result

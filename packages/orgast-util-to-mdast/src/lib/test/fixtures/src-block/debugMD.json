@@ -1,0 +1,11 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "code",
+      "lang": "language=\"js\"",
+      "meta": null,
+      "value": "export default async function jemama(){\n  console.log('is cringe')\n}"
+    }
+  ]
+}

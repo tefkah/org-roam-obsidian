@@ -22,6 +22,8 @@ import { text } from './text'
 import { list } from './list'
 import { listItem } from './listItem'
 import { comment } from './comments'
+import { link } from './link'
+import { citation } from './citation'
 
 export const handlers = {
   // 'org-data': orgData,
@@ -52,8 +54,9 @@ export const handlers = {
   'latex-environment': latexEnvironment,
   // 'horizontal-rule': horizontalRule,
   // 'diary-sexp': diarySexp,
+
   paragraph,
-  // link,
+  link,
   bold,
   italic,
   code,
@@ -68,7 +71,7 @@ export const handlers = {
   'latex-fragment': latexFragment,
   // entity,
   // 'table-cell': tableCell,
-  // citation,
+  citation,
   // 'citation-element': citationElement,
 }
 
