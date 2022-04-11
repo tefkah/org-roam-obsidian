@@ -1,7 +1,7 @@
 {
   "type": "org-data",
   "contentsBegin": 0,
-  "contentsEnd": 85,
+  "contentsEnd": 264,
   "children": [
     {
       "type": "property-drawer",
@@ -55,6 +55,117 @@
             {
               "type": "text",
               "value": "Pretty Link"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "affiliated": {},
+      "contentsBegin": 88,
+      "contentsEnd": 149,
+      "children": [
+        {
+          "type": "link",
+          "format": "bracket",
+          "linkType": "https",
+          "rawLink": "https://github.com/thomasfkjorna/org-roam-obsidian",
+          "path": "//github.com/thomasfkjorna/org-roam-obsidian",
+          "contentsBegin": 142,
+          "contentsEnd": 146,
+          "children": [
+            {
+              "type": "text",
+              "value": "REPO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "affiliated": {},
+      "contentsBegin": 150,
+      "contentsEnd": 192,
+      "children": [
+        {
+          "type": "link",
+          "format": "plain",
+          "linkType": "https",
+          "rawLink": "https://github.com/thomasfkjorna/org-roam",
+          "path": "//github.com/thomasfkjorna/org-roam",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contentsBegin": 193,
+      "contentsEnd": 264,
+      "children": [
+        {
+          "type": "headline",
+          "level": 2,
+          "todoKeyword": null,
+          "priority": null,
+          "commented": false,
+          "rawValue": "Images",
+          "tags": [],
+          "contentsBegin": 196,
+          "contentsEnd": 202,
+          "children": [
+            {
+              "type": "text",
+              "value": "Images"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "affiliated": {},
+          "contentsBegin": 204,
+          "contentsEnd": 220,
+          "children": [
+            {
+              "type": "link",
+              "format": "bracket",
+              "linkType": "file",
+              "rawLink": "./media.png",
+              "path": "./media.png",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "affiliated": {
+            "CAPTION": [
+              [
+                {
+                  "type": "text",
+                  "value": "Hey\n"
+                }
+              ]
+            ]
+          },
+          "contentsBegin": 236,
+          "contentsEnd": 264,
+          "children": [
+            {
+              "type": "link",
+              "format": "bracket",
+              "linkType": "file",
+              "rawLink": "file:./media.png",
+              "path": "./media.png",
+              "contentsBegin": 256,
+              "contentsEnd": 261,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Image"
+                }
+              ]
             }
           ]
         }

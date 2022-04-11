@@ -64,6 +64,9 @@ const fromOrg = (config: Options = {}) =>
       listItemIndent: 'one',
       bulletOrdered: ')',
       emphasis: '_',
+      handlers: {
+        rawText: (node) => node.value,
+      },
     })
 
 const fixtures = join(__dirname, 'fixtures')

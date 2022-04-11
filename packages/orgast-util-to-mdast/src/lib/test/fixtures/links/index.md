@@ -8,3 +8,13 @@ id: aaaa
 [[Note 2]]
 
 [[Note 2|Pretty Link]]
+
+[REPO](https://github.com/thomasfkjorna/org-roam-obsidian)
+
+https://github.com/thomasfkjorna/org-roam
+
+## Images
+
+![](./media.png)
+
+![Image](./media.png "Hey")

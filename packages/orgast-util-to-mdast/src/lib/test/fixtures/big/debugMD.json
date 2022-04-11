@@ -793,6 +793,10 @@
           "value": " can be deformed into a point, like in figure "
         },
         {
+          "type": "rawText",
+          "value": "ref:fig:connectedness"
+        },
+        {
           "type": "text",
           "value": ". For our purposes,\nsince we are looking at the position of a particle in spacetime, we can consider a space to be simply connected if it has no holes. Here a hole is a hole that\n\"pierces\" the space: the handle in the \"space\" of a coffeecup and the hole in the \"space\" of a donut are prime examples, while the inside of a bottle or a bubble in a glass of coke do not count as \"holes\" for the sake of connectedness.\nOn the contrary, spaces with such holes are called "
         },
@@ -1612,8 +1616,8 @@
       ]
     },
     {
-      "type": "text",
-      "value": "As an example, say that after a long day of categorizing configuration spaces you want to kick back, relax, and reread your favorite book on knot-theory. Just when you want to take of your shoes and untie your shoelaces, your rival researcher sticks their finger through the loops of your laces, preventing you from untying them! Fortunately, unlike the configuration space of laces minus their finger, their strategy is full of holes, and you, just having learned about connectedness, simply slide your loops off their finger and then untie them, leaving your rival stunned. The next however, your rival has learned from their mistakes, and instead of their finger they insert an infinitely long cylinder through the loops of your laces, fully preventing you from escaping your foot-prison (barring you simply undoing your laces by pulling the loops instead of the ends, but both of you know you are too proud for that).\n"
+      "type": "blockquote",
+      "children": []
     },
     {
       "type": "paragraph",
@@ -2753,8 +2757,8 @@
       ]
     },
     {
-      "type": "text",
-      "value": "$S_3$ is the set of all configurations of three elements,$\\{123, 213, 312 \\}$\n"
+      "type": "blockquote",
+      "children": []
     },
     {
       "type": "heading",
@@ -2883,6 +2887,10 @@
         {
           "type": "text",
           "value": " are the same, they\n      are different elements in the Braid group, see "
+        },
+        {
+          "type": "rawText",
+          "value": "ref:fig:braidvssymmetry"
         }
       ]
     },
@@ -3213,6 +3221,10 @@
         {
           "type": "text",
           "value": " phase we should expect from any potential anyon. According to "
+        },
+        {
+          "type": "rawText",
+          "value": "ref:eq:anyonphase"
         },
         {
           "type": "text",
@@ -3656,8 +3668,8 @@
       ]
     },
     {
-      "type": "text",
-      "value": "These two questions and answers are rather handy, and they cite the following two papers as useful\nhttps://physics.stackexchange.com/questions/383281/when-is-the-berry-phase-only-dependent-on-path-topology\n\nhttps://physics.stackexchange.com/questions/235503/why-is-the-phase-picked-up-during-identical-particle-exchange-a-topological-inva?rq=1\n\n[cite:@Leinaas1977]\n[cite:@Knapp2016]\n"
+      "type": "html",
+      "value": "<!-- These two questions and answers are rather handy, and they cite the following two papers as useful\nhttps://physics.stackexchange.com/questions/383281/when-is-the-berry-phase-only-dependent-on-path-topology\n\nhttps://physics.stackexchange.com/questions/235503/why-is-the-phase-picked-up-during-identical-particle-exchange-a-topological-inva?rq=1\n\n[cite:@Leinaas1977]\n[cite:@Knapp2016]\n -->"
     },
     {
       "type": "heading",
@@ -4256,6 +4268,10 @@
                 {
                   "type": "text",
                   "value": "Looks like figure "
+                },
+                {
+                  "type": "rawText",
+                  "value": "ref:fig:che"
                 }
               ]
             }
@@ -4282,6 +4298,10 @@
         {
           "type": "text",
           "value": "\n(QHE): rather than a linear dependence on the magnetic field strength, the resistivity shows these strange plateaux at rather consistent values, as in"
+        },
+        {
+          "type": "rawText",
+          "value": "ref:fig:qhe"
         },
         {
           "type": "text",
@@ -4626,8 +4646,8 @@
       ]
     },
     {
-      "type": "text",
-      "value": "\\begin{equation}\n[\\hat{\\mathbf{\\pi_x}}, \\hat{\\mathbf{\\pi_y}}] = \\hat{\\mathbf{\\pi_x}} \\hat{\\mathbf{\\pi_y}} - \\hat{\\mathbf{\\pi_y}} \\hat{\\mathbf{\\pi_x}}   = -ie\\hbar B\n    \\label{eq:momcom}\n\\end{equation}\n"
+      "type": "html",
+      "value": "<!-- \\begin{equation}\n[\\hat{\\mathbf{\\pi_x}}, \\hat{\\mathbf{\\pi_y}}] = \\hat{\\mathbf{\\pi_x}} \\hat{\\mathbf{\\pi_y}} - \\hat{\\mathbf{\\pi_y}} \\hat{\\mathbf{\\pi_x}}   = -ie\\hbar B\n    \\label{eq:momcom}\n\\end{equation}\n -->"
     },
     {
       "type": "paragraph",
@@ -4816,8 +4836,8 @@
       ]
     },
     {
-      "type": "text",
-      "value": "The upshot of this is that E= ( E 0 ) ⇒ J= ( 0 eνE/Φ0 ) Comparing to the definition of the conductivity tensor (1.6), we have σxx = 0 and σxy = eν Φ0 ⇒ ρxx = 0 and ρxy = − Φ0 eν = −2π~ e2ν (2.3) This is exactly the conductivity seen on the quantum Hall plateaux. Although the way we’ve set up our computation we get a negative Hall resistivity rather than positive.\n"
+      "type": "html",
+      "value": "<!-- The upshot of this is that E= ( E 0 ) ⇒ J= ( 0 eνE/Φ0 ) Comparing to the definition of the conductivity tensor (1.6), we have σxx = 0 and σxy = eν Φ0 ⇒ ρxx = 0 and ρxy = − Φ0 eν = −2π~ e2ν (2.3) This is exactly the conductivity seen on the quantum Hall plateaux. Although the way we’ve set up our computation we get a negative Hall resistivity rather than positive.\n -->"
     },
     {
       "type": "heading",
@@ -4973,6 +4993,10 @@
                 {
                   "type": "text",
                   "value": "They (unsurprisingly) break the degeneracy of the Landau levels, resulting in more swept out states as in "
+                },
+                {
+                  "type": "rawText",
+                  "value": "ref:fig:disorder"
                 }
               ]
             }
@@ -5022,11 +5046,25 @@
     },
     {
       "type": "paragraph",
-      "children": []
+      "children": [
+        {
+          "type": "image",
+          "url": "../media/broadlandau.png",
+          "alt": "",
+          "title": "Density of states in the IQHE with and without disorder"
+        }
+      ]
     },
     {
       "type": "paragraph",
-      "children": []
+      "children": [
+        {
+          "type": "image",
+          "url": "../media/breakdegen.png",
+          "alt": "",
+          "title": "Extended to localized states"
+        }
+      ]
     },
     {
       "type": "paragraph",
@@ -5198,6 +5236,10 @@
           "value": ", but not actually compute them yet:\nthis will be done in section "
         },
         {
+          "type": "rawText",
+          "value": "ref:sec:GeometricPhase"
+        },
+        {
           "type": "text",
           "value": "."
         }
@@ -5226,6 +5268,10 @@
         {
           "type": "text",
           "value": "This order of operation is no longer possible in the FQHE, as the electron interactions lift the degeneracy of the Landau levels from the start, forcing us to compute the wavefunctions in a different way. A first approach would be to use perturbation theory: model the electron interaction as a small perturbation to "
+        },
+        {
+          "type": "rawText",
+          "value": "ref:eq:landauham"
         },
         {
           "type": "text",
@@ -5417,8 +5463,8 @@
       ]
     },
     {
-      "type": "text",
-      "value": "      ψ ∼ (z1 + z2)M (z1 − z2)me−(|z1|2+|z2|2)/4l2 B\n"
+      "type": "html",
+      "value": "<!--       ψ ∼ (z1 + z2)M (z1 − z2)me−(|z1|2+|z2|2)/4l2 B\n -->"
     },
     {
       "type": "paragraph",
@@ -5608,8 +5654,8 @@
       ]
     },
     {
-      "type": "text",
-      "value": "I generate the elementary excitations of g by piercing the fluid at z, with an infinitely thin solenoid and passing through it a flux quantum t) cp =- hc/e adiabatically. The effect of this operation on the single-body wave functions is (z-z, ) exp(-4lzl')-(z-z, ) \"exp(--'. ~z~'). (») Let us take as approximate representations of these excited states (13) '4 \"=&.,''4\"(--'Xl, (, l')In;(, ——\". I(n;,.(*, —, )\"),\n"
+      "type": "html",
+      "value": "<!-- I generate the elementary excitations of g by piercing the fluid at z, with an infinitely thin solenoid and passing through it a flux quantum t) cp =- hc/e adiabatically. The effect of this operation on the single-body wave functions is (z-z, ) exp(-4lzl')-(z-z, ) \"exp(--'. ~z~'). (») Let us take as approximate representations of these excited states (13) '4 \"=&.,''4\"(--'Xl, (, l')In;(, ——\". I(n;,.(*, —, )\"),\n -->"
     },
     {
       "type": "list",
@@ -5671,7 +5717,13 @@
           "children": [
             {
               "type": "paragraph",
-              "children": []
+              "children": [
+                {
+                  "type": "image",
+                  "url": "../media/conefold.png",
+                  "alt": ""
+                }
+              ]
             }
           ]
         }
@@ -5754,7 +5806,13 @@
           "children": [
             {
               "type": "paragraph",
-              "children": []
+              "children": [
+                {
+                  "type": "image",
+                  "url": "../media/transport.jpeg",
+                  "alt": ""
+                }
+              ]
             }
           ]
         }
@@ -5766,6 +5824,10 @@
         {
           "type": "text",
           "value": " "
+        },
+        {
+          "type": "rawText",
+          "value": "https://www.physicsforums.com/threads/parallel-transport-and-cone.1000209/"
         }
       ]
     },

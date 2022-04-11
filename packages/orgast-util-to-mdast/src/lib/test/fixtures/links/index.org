@@ -7,3 +7,16 @@
 [[id:bbbb]]
 
 [[id:bbbb][Pretty Link]]
+
+
+
+[[https://github.com/thomasfkjorna/org-roam-obsidian][REPO]]
+
+https://github.com/thomasfkjorna/org-roam
+
+** Images
+
+[[./media.png]]
+
+#+caption: Hey
+[[file:./media.png][Image]]

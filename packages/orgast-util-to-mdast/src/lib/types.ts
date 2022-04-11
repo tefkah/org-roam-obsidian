@@ -32,6 +32,7 @@ import {
   RecursiveObject as OrgastRecursiveObject,
 } from 'uniorg'
 import { FilesData } from 'collect-org-roam-links'
+import { convert } from 'unist-util-is'
 
 type OrgastContent = GreaterElementType | ElementType | ObjectType | OrgastRoot
 /**
@@ -102,6 +103,13 @@ export interface Context {
   preserveComments: boolean
   idData: FilesData | null
 }
+export type WithAffiliatedKeywordsType = Extract<
+  OrgastContent,
+  { affiliated?: any }
+>
+export const hasAffiliatedKeywords = convert<WithAffiliatedKeywordsType>(
+  (node): node is WithAffiliatedKeywordsType => 'affiliated' in node
+)
 
 export type JWithProps<T extends MdastContent['type'] = MdastContent['type']> =
   (

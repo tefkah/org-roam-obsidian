@@ -42,6 +42,61 @@
           }
         }
       ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "https://github.com/thomasfkjorna/org-roam-obsidian",
+          "children": [
+            {
+              "type": "text",
+              "value": "REPO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "rawText",
+          "value": "https://github.com/thomasfkjorna/org-roam"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        {
+          "type": "text",
+          "value": "Images"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "image",
+          "url": "./media.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "image",
+          "url": "./media.png",
+          "alt": "Image",
+          "title": "Hey"
+        }
+      ]
     }
   ]
 }

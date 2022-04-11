@@ -24,6 +24,7 @@ import { tableCell } from './tableCell'
 import { tableRow } from './tableRow'
 import { footnoteReference } from './footnoteReference'
 import { footnoteDefinition } from './footnoteDefinition'
+import { quoteBlock } from './quoteBlock'
 
 export const handlers = {
   // 'org-data': orgData,
@@ -33,10 +34,10 @@ export const handlers = {
   'property-drawer': ignore,
   'plain-list': list,
   'list-item': listItem,
-  // 'quote-block': quoteBlock,
-  // 'verse-block': verseBlock,
-  // 'center-block': centerBlock,
-  // 'special-block': specialBlock,
+  'quote-block': quoteBlock,
+  'verse-block': quoteBlock,
+  'center-block': all,
+  'special-block': all,
   'footnote-definition': footnoteDefinition,
 
   table,
@@ -47,12 +48,11 @@ export const handlers = {
   // planning,
   // 'node-property': nodeProperty,
   // 'listItem-tag': listItemTag,
-  // 'comment-block': commentBlock,
+  'comment-block': comment,
   'src-block': srcBlock,
-  // 'example-block': exampleBlock,
-  // 'export-block': exportBlock,
+  'example-block': quoteBlock,
+  'export-block': code,
   keyword,
-  // 'table-row': tableRow,
   comment,
   // 'fixed-width': fixedWidth,
   // clock,
@@ -75,9 +75,7 @@ export const handlers = {
   'footnote-reference': footnoteReference,
   'latex-fragment': latexFragment,
   // entity,
-  // 'table-cell': tableCell,
   citation,
-  // 'citation-element': citationElement,
 }
 
 function ignore() {
