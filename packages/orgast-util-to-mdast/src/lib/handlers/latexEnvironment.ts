@@ -6,8 +6,7 @@ import { envRegex } from '../util/regexes'
 
 export const latexEnvironment: Handle = (
   j: J,
-  node: LatexEnvironment,
-  parent?: GreaterElement
+  node: LatexEnvironment
 ): Math | void => {
   // check if it's an equation environment
   const mathRegex = envRegex('equation|align|equation*|align*')

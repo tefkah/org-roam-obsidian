@@ -2,6 +2,10 @@
   "type": "root",
   "children": [
     {
+      "type": "yaml",
+      "value": "title: TITLE"
+    },
+    {
       "type": "heading",
       "depth": 1,
       "children": [

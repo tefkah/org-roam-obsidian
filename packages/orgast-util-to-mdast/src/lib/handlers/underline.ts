@@ -5,11 +5,7 @@ import { wrapText } from '../util/wrap-text'
 import { toString } from 'orgast-util-to-string'
 import { trimTrailingLines } from 'trim-trailing-lines'
 
-export const underline: Handle = (
-  j: J,
-  node: Underline,
-  parent?: GreaterElement
-): HTML => {
+export const underline: Handle = (j: J, node: Underline): HTML => {
   // TODO: Convert contents to HTML using orgToHast
   const code = j(node, 'html', `<u>${toString(node)}</u>`)
   return code as HTML

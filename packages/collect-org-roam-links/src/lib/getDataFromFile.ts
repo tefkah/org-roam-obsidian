@@ -53,6 +53,7 @@ export const getDataFromFile = async (text: string, props?: DataProps) => {
       visit(node, 'property-drawer', (drawer: PropertyDrawer) => {
         const kids = drawer.children
 
+        console.log('hey')
         kids.forEach((kid: NodeProperty) => {
           const { key, value } = kid
           switch (key) {
@@ -64,6 +65,10 @@ export const getDataFromFile = async (text: string, props?: DataProps) => {
               return
             case 'ROAM_REFS':
               data.citation = value.replace(/(cite:|@)/g, '')
+              return
+            case 'id':
+            case 'ID':
+              data.id = value
               return
             default:
               return

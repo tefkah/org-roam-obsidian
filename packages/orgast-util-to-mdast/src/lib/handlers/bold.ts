@@ -3,8 +3,8 @@
 import { Emphasis, Strong } from 'mdast'
 import { Bold } from 'uniorg'
 import { all } from '../all'
-import { J, Node } from '../types'
+import { Handle, J, Node } from '../types'
 
-export const bold = (j: J, node: Bold): Strong => {
+export const bold: Handle = (j: J, node: Bold): Strong => {
   return j(node, 'strong', all(j, node)) as Strong
 }

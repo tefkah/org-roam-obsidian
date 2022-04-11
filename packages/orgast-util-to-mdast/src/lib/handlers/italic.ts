@@ -2,8 +2,8 @@
 
 import { Emphasis } from 'mdast'
 import { all } from '../all'
-import { J, Node } from '../types'
+import { Handle, J, Node } from '../types'
 
-export function italic(j: J, node: Node): Emphasis {
+export const italic: Handle = (j: J, node: Node): Emphasis => {
   return j(node, 'emphasis', all(j, node)) as Emphasis
 }

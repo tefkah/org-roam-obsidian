@@ -3,11 +3,7 @@ import { List, GreaterElement } from 'uniorg'
 import { all } from '../all'
 import { Handle, J } from '../types'
 
-export const list: Handle = (
-  j: J,
-  node: List,
-  parent?: GreaterElement
-): MdastList => {
+export const list: Handle = (j: J, node: List): MdastList => {
   switch (node.listType) {
     case 'ordered':
       return j(

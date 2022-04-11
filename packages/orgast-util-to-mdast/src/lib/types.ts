@@ -1,4 +1,4 @@
-import { Node as UnistNode, Parent as UnistParent } from 'unist'
+import { Literal, Node as UnistNode, Parent as UnistParent } from 'unist'
 import { InlineCiteNode } from '@benrbray/mdast-util-cite'
 
 import {
@@ -15,7 +15,11 @@ import {} from 'micromark-extension-gfm'
 type MdastFrontMatterContent =
   FrontmatterContentMap[keyof FrontmatterContentMap]
 
-type MdastContent = Content | MdastFrontMatterContent | InlineCiteNode
+type MdastContent =
+  | Content
+  | MdastFrontMatterContent
+  | InlineCiteNode
+  | WikiLink
 import {
   //Node,
   GreaterElement as OrgastParent,
@@ -27,6 +31,7 @@ import {
   OrgData as OrgastRoot,
   RecursiveObject as OrgastRecursiveObject,
 } from 'uniorg'
+import { FilesData } from 'collect-org-roam-links'
 
 type OrgastContent = GreaterElementType | ElementType | ObjectType | OrgastRoot
 /**
@@ -36,6 +41,7 @@ export type Node = OrgastContent
 export type Properties = Record<string, unknown>
 
 export interface Options {
+  idData?: FilesData
   handlers?: { [handle: string]: Handle }
   document?: boolean
   newLines?: boolean
@@ -50,10 +56,29 @@ export interface Options {
   preserveComments?: boolean
 }
 
+export interface WikiLink extends Literal {
+  type: 'wikiLink'
+  value: string
+  data: {
+    permalink: string
+    alias?: string
+    exists?: boolean
+    hName?: string
+    hProperties?: {
+      className: string
+      href: string
+    }
+    hChildren?: {
+      type: string
+      value: string
+    }[]
+  }
+}
+
 export type Handle = (
   j: J,
   node: any,
-  parent?: OrgastParent | OrgastElement | OrgastObject
+  parent?: OrgastParent | OrgastElement | OrgastRecursiveObject
 ) => MdastContent | Array<MdastContent> | void
 
 export interface Context {
@@ -75,6 +100,7 @@ export interface Context {
   quotes: Array<string>
   citationAnalyzer: (node: Node) => string
   preserveComments: boolean
+  idData: FilesData | null
 }
 
 export type JWithProps<T extends MdastContent['type'] = MdastContent['type']> =

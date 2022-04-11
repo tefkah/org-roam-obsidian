@@ -5,8 +5,7 @@ import { all } from '../all'
 
 export const strikeThrough: Handle = (
   j: J,
-  node: StrikeThrough,
-  parent?: GreaterElement
+  node: StrikeThrough
 ): MdastStrikeThrough => {
   const strike = j(node, 'delete', all(j, node))
   return strike as MdastStrikeThrough

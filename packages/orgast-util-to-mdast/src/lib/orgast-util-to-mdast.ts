@@ -92,6 +92,7 @@ export function toMdast(tree: MdastRoot | MdastContent, options?: Options) {
       citationAnalyzer:
         options.citationAnalyzer || ((node: Node) => 'autocite'),
       preserveComments: options.preserveComments || true,
+      idData: options.idData ?? null,
     } as Context
   )
 

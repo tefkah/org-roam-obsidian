@@ -18,6 +18,10 @@ import { Plugin } from 'unified'
 import { visitIds } from 'orgast-util-visit-ids'
 import { paragraph } from '../handlers/paragraph'
 import { visit } from 'unist-util-visit'
+import { collectLinks } from 'collect-org-roam-links'
+
+// @ts-expect-error no types for remark-wiki-link sadge
+import remarkWikiLink from 'remark-wiki-link'
 const isText = convert<Text>('text')
 // const remarkCite = citePlugin as Plugin<
 //   [CitePluginOptions?] | void[],
@@ -52,6 +56,7 @@ const fromOrg = (config: Options = {}) =>
     .use(remarkGFM)
     .use(citePlugin, {})
     .use(remarkFrontMatter)
+    .use(remarkWikiLink, { aliasDivider: '|' })
     .use(remarkStringify, {
       bullet: '-',
       listItemIndent: 'one',

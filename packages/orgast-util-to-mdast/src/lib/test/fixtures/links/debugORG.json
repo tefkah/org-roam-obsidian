@@ -1,0 +1,73 @@
+{
+  "type": "org-data",
+  "contentsBegin": 0,
+  "contentsEnd": 83,
+  "children": [
+    {
+      "type": "drawer",
+      "affiliated": {},
+      "name": "properties",
+      "contentsBegin": 13,
+      "contentsEnd": 22,
+      "children": [
+        {
+          "type": "paragraph",
+          "affiliated": {},
+          "contentsBegin": 13,
+          "contentsEnd": 22,
+          "children": [
+            {
+              "type": "text",
+              "value": "id: aaaa\n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "keyword",
+      "affiliated": {},
+      "key": "TITLE",
+      "value": "Note 1"
+    },
+    {
+      "type": "paragraph",
+      "affiliated": {},
+      "contentsBegin": 45,
+      "contentsEnd": 57,
+      "children": [
+        {
+          "type": "link",
+          "format": "bracket",
+          "linkType": "id",
+          "rawLink": "id:bbbb",
+          "path": "bbbb",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "affiliated": {},
+      "contentsBegin": 58,
+      "contentsEnd": 83,
+      "children": [
+        {
+          "type": "link",
+          "format": "bracket",
+          "linkType": "id",
+          "rawLink": "id:bbbb",
+          "path": "bbbb",
+          "contentsBegin": 69,
+          "contentsEnd": 80,
+          "children": [
+            {
+              "type": "text",
+              "value": "Pretty Link"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

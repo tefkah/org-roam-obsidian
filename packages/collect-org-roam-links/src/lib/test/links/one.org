@@ -1,0 +1,7 @@
+:properties:
+:id: aaaa
+:end:
+#+title: Note 1
+
+[[id:bbbb]]
+[[id:bbbb][Pretty Link]]

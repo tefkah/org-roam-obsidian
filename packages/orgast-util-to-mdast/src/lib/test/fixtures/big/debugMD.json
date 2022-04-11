@@ -3,7 +3,7 @@
   "children": [
     {
       "type": "yaml",
-      "value": "tags: \n  - \n  - chapter\n  - anyons\n  - \nlatex_header: \\usepackage[style=apa, backend=biber]{biblatex}\nlatex_header_extra: \\addbibresource{../bibliography/Academic.bib}\nlatex_header_extra: \\DeclareUnicodeCharacter{2212}{-}\ntransclude: [[id:3cb8cc7b-70c4-4613-9f5e-3d73f9c6d476][The configuration space explanation chapter]] :level 2\ntransclude: [[id:654e4bfd-594e-48f2-b6b1-7ad252e1c05c][If particles cannot be closer than the thickness of the strip, the configuration space is approximately 2D]]\ntransclude: [[id:654e4bfd-594e-48f2-b6b1-7ad252e1c05c][If particles cannot be closer than the thickness of the strip, the configuration space is approximately 2D]] :level 3\ntransclude: [[id:66aff1d3-bd45-45e5-9d31-d4292d76ae8e][FQHE/anyon chapter:Geometrical Phase]]"
+      "value": "title: III. Anyons\ntags: \n  - \n  - chapter\n  - anyons\n  - \nlatex_header: \\usepackage[style=apa, backend=biber]{biblatex}\nlatex_header_extra: \\addbibresource{../bibliography/Academic.bib}\nlatex_header_extra: \\DeclareUnicodeCharacter{2212}{-}\ntransclude: [[id:3cb8cc7b-70c4-4613-9f5e-3d73f9c6d476][The configuration space explanation chapter]] :level 2\ntransclude: [[id:654e4bfd-594e-48f2-b6b1-7ad252e1c05c][If particles cannot be closer than the thickness of the strip, the configuration space is approximately 2D]]\ntransclude: [[id:654e4bfd-594e-48f2-b6b1-7ad252e1c05c][If particles cannot be closer than the thickness of the strip, the configuration space is approximately 2D]] :level 3\ntransclude: [[id:66aff1d3-bd45-45e5-9d31-d4292d76ae8e][FQHE/anyon chapter:Geometrical Phase]]"
     },
     {
       "type": "text",
@@ -2138,6 +2138,15 @@
           "value": " allows us to make some simpler arguments regarding its connectedness, as it is "
         },
         {
+          "type": "wikiLink",
+          "value": "homeomorphic",
+          "data": {
+            "permalink": "8b14c42a-cce5-4be1-b740-c051397a06c2",
+            "alias": "homeomorphic",
+            "exists": false
+          }
+        },
+        {
           "type": "text",
           "value": " (\"topologically equivalent\") to a circle in "
         },
@@ -3072,7 +3081,17 @@
     },
     {
       "type": "paragraph",
-      "children": []
+      "children": [
+        {
+          "type": "wikiLink",
+          "value": "If particles cannot be closer than the thickness of the strip, the configuration space is approximately 2D",
+          "data": {
+            "permalink": "654e4bfd-594e-48f2-b6b1-7ad252e1c05c",
+            "alias": "If particles cannot be closer than the thickness of the strip, the configuration space is approximately 2D",
+            "exists": false
+          }
+        }
+      ]
     },
     {
       "type": "heading",
@@ -3486,6 +3505,15 @@
         {
           "type": "text",
           "value": "] soon thereafter elucidated, the mystery largely disappears we link it to a more general geometric property: "
+        },
+        {
+          "type": "wikiLink",
+          "value": "Holonomy.",
+          "data": {
+            "permalink": "fd2450df-e046-4d9c-a350-2be198e7fd04",
+            "alias": "Holonomy.",
+            "exists": false
+          }
         }
       ]
     },
@@ -3495,6 +3523,15 @@
         {
           "type": "text",
           "value": "Holonomy is the phenomenon of a vector (or more generally any mathematical object) not remaining completely invariant after being "
+        },
+        {
+          "type": "wikiLink",
+          "value": "Parallel transport",
+          "data": {
+            "permalink": "71b7fa31-7712-4a3a-a3ff-825298ed86cd",
+            "alias": "Parallel transport",
+            "exists": false
+          }
         },
         {
           "type": "text",
@@ -3625,7 +3662,17 @@
         },
         {
           "type": "emphasis",
-          "children": []
+          "children": [
+            {
+              "type": "wikiLink",
+              "value": "Berry Connection",
+              "data": {
+                "permalink": "3dad96b9-a6bf-449f-981e-4e141f865dd5",
+                "alias": "Berry Connection",
+                "exists": false
+              }
+            }
+          ]
         },
         {
           "type": "text",
@@ -5146,7 +5193,17 @@
     },
     {
       "type": "paragraph",
-      "children": []
+      "children": [
+        {
+          "type": "wikiLink",
+          "value": "The Laughlin Wavefunction",
+          "data": {
+            "permalink": "fff6c214-ce92-4f4f-be7f-71eb21efff79",
+            "alias": "The Laughlin Wavefunction",
+            "exists": false
+          }
+        }
+      ]
     },
     {
       "type": "paragraph",
@@ -5803,6 +5860,15 @@
         {
           "type": "text",
           "value": " "
+        },
+        {
+          "type": "wikiLink",
+          "value": "FQHE/anyon chapter",
+          "data": {
+            "permalink": "66aff1d3-bd45-45e5-9d31-d4292d76ae8e",
+            "alias": "FQHE/anyon chapter",
+            "exists": false
+          }
         }
       ]
     },
@@ -5865,6 +5931,15 @@
         {
           "type": "text",
           "value": "The difference-maker for whether an electron gas is 2D seems to be it's Fermi-surface topology."
+        },
+        {
+          "type": "wikiLink",
+          "value": "3D Quantum Hall Effect",
+          "data": {
+            "permalink": "0448eeeb-d0dc-45ca-a850-caa8413b3640",
+            "alias": "3D Quantum Hall Effect",
+            "exists": false
+          }
         }
       ]
     },
@@ -5967,6 +6042,15 @@
         {
           "type": "text",
           "value": "As an exercise, check whether this group satisfies the axioms of a "
+        },
+        {
+          "type": "wikiLink",
+          "value": "Group",
+          "data": {
+            "permalink": "0bbb9ce7-191f-4fde-8924-cad8a3886e2e",
+            "alias": "Group",
+            "exists": false
+          }
         }
       ]
     },

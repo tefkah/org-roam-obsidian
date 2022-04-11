@@ -5,11 +5,7 @@ import { wrapText } from '../util/wrap-text'
 import { toString } from 'orgast-util-to-string'
 import { trimTrailingLines } from 'trim-trailing-lines'
 
-export const srcBlock: Handle = (
-  j: J,
-  node: SrcBlock,
-  parent?: GreaterElement
-): Code => {
+export const srcBlock: Handle = (j: J, node: SrcBlock): Code => {
   const code = j(
     node,
     'code',

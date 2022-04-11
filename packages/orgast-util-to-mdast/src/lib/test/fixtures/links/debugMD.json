@@ -1,0 +1,56 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "yaml",
+      "value": "title: Note 1"
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "id: aaaa"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        {
+          "type": "text",
+          "value": "Note 1"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "wikiLink",
+          "value": "Note 2",
+          "data": {
+            "permalink": "bbbb",
+            "alias": "Note 2",
+            "exists": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "wikiLink",
+          "value": "Note 2",
+          "data": {
+            "permalink": "bbbb",
+            "alias": "Pretty Link",
+            "exists": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,14 @@
 import { GreaterElement, GreaterElementType, Keyword } from 'uniorg'
 import { Handle, J } from '../types'
 
-export const keyword: Handle = (
-  j: J,
-  node: Keyword,
-  parent?: GreaterElement
-) => {
+export const keyword: Handle = (j: J, node: Keyword) => {
   const key = node.key.toLowerCase()
   switch (key) {
     case 'title':
+      j.frontMatter.push({
+        key: 'title',
+        value: node.value,
+      })
       return j(node, 'heading', { depth: 1 }, [
         { type: 'text', value: node.value },
       ])
