@@ -14,3 +14,5 @@ export default function uniorgRemark(
     return result
   }
 }
+
+export { Options }
