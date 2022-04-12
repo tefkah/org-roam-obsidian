@@ -1,5 +1,3 @@
-import { OrgData } from 'uniorg'
-import { Node } from 'unist'
 import { u } from 'unist-builder'
 import { firstPhrasing } from './orgast-util-first-phrasing'
 

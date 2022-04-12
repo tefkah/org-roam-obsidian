@@ -7,16 +7,22 @@
   "cli": {
     "defaultCollection": "@nrwl/workspace"
   },
+  "generators": {
+    "@nrwl/node:library": {}
+  },
+  "targetDependencies": {
+    "build": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ]
+  },
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
-        ],
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
         "accessToken": "OGRmMmUxYmEtZGVkOC00YzBkLTg2MTMtYmUwY2ZiOTRlNjYxfHJlYWQtd3JpdGU="
       }
     }

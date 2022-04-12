@@ -46,15 +46,51 @@ export interface Options {
   handlers?: { [handle: string]: Handle }
   document?: boolean
   newLines?: boolean
+  /**
+   * What the checked checkbox should look like
+   *
+   * @default '[x]''
+   */
   checked?: string
+  /**
+   * What the unchecked checkbox should look like
+   *
+   * @default '[ ]''
+   */
   unchecked?: string
+  /**
+   * How to render quotes.
+   *
+   * @default ['"','"']
+   */
   quotes?: Array<string>
   frontMatter?: [{ key: string; value: string }]
   frontMatterFormat?: 'yaml' | 'toml'
+  /**
+   * #+:Keywords will get mapped to frontmatter metadata.
+   * Define this map as an array of key/value objects.
+   *
+   * @default "[{filetags: 'tags'}]"
+   */
   keywordFrontMatterMap?: [{ key: string; value: string }]
+  /**
+   * Keywords get appended to the frontmatter. Keywords matching these strings or /regexps/ will be ignored.
+   */
   ignoredKeywords?: string[]
   citationAnalyzer?: (node: Node) => string
+  /**
+   * Whether to keep comments, if true will be rendered as html comments
+   *
+   * @default true
+   */
   preserveComments?: boolean
+  /**
+   * Often the title is the same as the first heading. If there is a heading before any other content and it is
+   * similar to the title, then don't print the title.
+   *
+   *  @default true
+   */
+  ignoreTitleFirstHeading?: boolean
 }
 
 export interface WikiLink extends Literal {
@@ -102,6 +138,7 @@ export interface Context {
   citationAnalyzer: (node: Node) => string
   preserveComments: boolean
   idData: FilesData | null
+  ignoreTitleFirstHeading: boolean
 }
 export type WithAffiliatedKeywordsType = Extract<
   OrgastContent,

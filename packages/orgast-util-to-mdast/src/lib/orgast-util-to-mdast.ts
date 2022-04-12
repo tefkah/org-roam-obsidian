@@ -96,6 +96,7 @@ export function toMdast(tree: OrgData, options?: Options) {
         options.citationAnalyzer || ((node: Node) => 'autocite'),
       preserveComments: options.preserveComments || true,
       idData: options.idData ?? null,
+      ignoreTitleFirstHeading: options?.ignoreTitleFirstHeading || true,
     } as Context
   )
 
