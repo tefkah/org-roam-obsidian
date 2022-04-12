@@ -91,9 +91,8 @@ export function toMdast(tree: OrgData, options?: Options) {
       keywordFrontMatterMap: options.keywordFrontMatterMap || {
         roam_refs: 'citekey',
       },
+      newLines: options.newLines || false,
       ignoredKeywords: options.ignoredKeywords || [],
-      citationAnalyzer:
-        options.citationAnalyzer || ((node: Node) => 'autocite'),
       preserveComments: options.preserveComments || true,
       idData: options.idData ?? null,
       ignoreTitleFirstHeading: options?.ignoreTitleFirstHeading || true,

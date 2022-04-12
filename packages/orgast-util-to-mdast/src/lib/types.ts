@@ -64,20 +64,19 @@ export interface Options {
    * @default ['"','"']
    */
   quotes?: Array<string>
-  frontMatter?: [{ key: string; value: string }]
+  frontMatter?: { [key: string]: string | string[] }
   frontMatterFormat?: 'yaml' | 'toml'
   /**
    * #+:Keywords will get mapped to frontmatter metadata.
    * Define this map as an array of key/value objects.
    *
-   * @default "[{filetags: 'tags'}]"
+   * @default "{roam_refs: 'citekey'}"
    */
-  keywordFrontMatterMap?: [{ key: string; value: string }]
+  keywordFrontMatterMap?: { [key: string]: string }
   /**
    * Keywords get appended to the frontmatter. Keywords matching these strings or /regexps/ will be ignored.
    */
   ignoredKeywords?: string[]
-  citationAnalyzer?: (node: Node) => string
   /**
    * Whether to keep comments, if true will be rendered as html comments
    *
@@ -118,26 +117,22 @@ export type Handle = (
   parent?: OrgastParent | OrgastElement | OrgastRecursiveObject
 ) => MdastContent | Array<MdastContent> | void
 
-export interface Context {
-  nodeById?: {
-    [id: string]: Element
-  }
+export interface Context extends Required<Options> {
   baseFound: boolean
   frozenBaseUrl: string | null
   wrapText: boolean
   inTable: boolean
   qNesting: number
   handlers: { [handler: string]: Handle }
-  document: boolean | undefined
+  document: boolean
   frontMatter: { [key: string]: string | string[] }
   keywordFrontMatterMap: { [key: string]: string }
   ignoredKeywords: string[]
   checked: string
   unchecked: string
   quotes: Array<string>
-  citationAnalyzer: (node: Node) => string
   preserveComments: boolean
-  idData: FilesData | null
+  idData: FilesData
   ignoreTitleFirstHeading: boolean
 }
 export type WithAffiliatedKeywordsType = Extract<

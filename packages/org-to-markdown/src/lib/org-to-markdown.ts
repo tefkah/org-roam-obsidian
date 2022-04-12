@@ -17,6 +17,8 @@ import remarkWikiLink from 'remark-wiki-link'
 import { access, mkdir, writeFile } from 'fs/promises'
 import { VFile } from 'vfile'
 import { mkdirSync } from 'fs'
+import { sentenceCase } from 'sentence-case'
+import { titleCase } from 'title-case'
 
 const isText = convert<Text>('text')
 export async function orgToMarkdown(
@@ -66,15 +68,27 @@ export async function orgToMarkdown(
   const { pathArr, fileArr } = files.reduce(
     (acc, curr) => {
       acc.fileArr.push(curr.file)
-      try {
-        acc.pathArr.push(linksByPath[curr.path].title)
-      } catch (e) {
-        console.error(e)
+      let title = linksByPath?.[curr?.path]?.title
+      const basedir = path.dirname(curr.path)
+      if (!title) {
         console.warn(
           `Could not find title for ${curr.path}, using path instead`
         )
         acc.pathArr.push(curr.path)
+        return acc
       }
+      try {
+        title = titleCase(title) //.replace(/:/, ' -')
+      } catch (e: any) {}
+
+      const newpath = path.join(
+        basedir,
+        title
+        //    {
+        //   stripRegexp: new RegExp(''),
+        // })
+      )
+      acc.pathArr.push(newpath)
       return acc
     },
     { pathArr: [] as string[], fileArr: [] as string[] }
@@ -99,6 +113,7 @@ export async function orgToMarkdown(
       console.log(`Wrote file to ${mdpath}`)
     } catch (e) {
       await mkdir(path.dirname(mdpath))
+
       await writeFile(mdpath, String(file))
     }
     num++

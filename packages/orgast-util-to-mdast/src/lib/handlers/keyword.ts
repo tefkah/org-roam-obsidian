@@ -40,7 +40,10 @@ export const keyword: Handle = (
       ])
     }
     case 'filetags': {
-      j.frontMatter['tags'] = node.value.split(':').filter((t) => t)
+      j.frontMatter['tags'] = node.value
+        .replace(/ /g, ':')
+        .split(':')
+        .filter((t) => t)
       return
     }
     default:
