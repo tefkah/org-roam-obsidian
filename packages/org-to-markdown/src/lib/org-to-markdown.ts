@@ -1,5 +1,5 @@
 import { Node } from 'unist'
-import { collectLinks, readDirectory } from 'collect-org-roam-links'
+import { collectLinks, FilesData, readDirectory } from 'collect-org-roam-links'
 import uniorgParse from 'uniorg-parse'
 import uniorgRemark, { Options } from 'uniorg-remark'
 import { visit } from 'unist-util-visit'
@@ -14,7 +14,7 @@ import { citePlugin, CitePluginOptions } from '@benrbray/remark-cite'
 import { convert } from 'unist-util-is'
 //@ts-expect-error remark-wiki-link does not have decl
 import remarkWikiLink from 'remark-wiki-link'
-import { access, writeFile } from 'fs/promises'
+import { access, mkdir, writeFile } from 'fs/promises'
 import { VFile } from 'vfile'
 import { mkdirSync } from 'fs'
 
@@ -58,10 +58,23 @@ export async function orgToMarkdown(
       },
     })
 
+  const linksByPath = Object.values(links).reduce((acc, curr) => {
+    acc[curr.path] = curr
+    return acc
+  }, {} as FilesData)
+
   const { pathArr, fileArr } = files.reduce(
     (acc, curr) => {
-      acc.pathArr.push(curr.path)
       acc.fileArr.push(curr.file)
+      try {
+        acc.pathArr.push(linksByPath[curr.path].title)
+      } catch (e) {
+        console.error(e)
+        console.warn(
+          `Could not find title for ${curr.path}, using path instead`
+        )
+        acc.pathArr.push(curr.path)
+      }
       return acc
     },
     { pathArr: [] as string[], fileArr: [] as string[] }
@@ -77,11 +90,15 @@ export async function orgToMarkdown(
   console.log('Writing files...')
   let num = 0
   for (const file of vfiles) {
-    const mdpath = join(out || dir, `${pathArr[num]}`.replace('org', 'md'))
+    const mdpath = `${join(
+      out || dir,
+      `${pathArr[num]}`.replace('.org', '')
+    )}.md`
     try {
       await writeFile(mdpath, String(file))
+      console.log(`Wrote file to ${mdpath}`)
     } catch (e) {
-      mkdirSync(path.dirname(mdpath))
+      await mkdir(path.dirname(mdpath))
       await writeFile(mdpath, String(file))
     }
     num++
