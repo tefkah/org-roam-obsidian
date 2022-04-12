@@ -6,22 +6,23 @@ import { visit } from 'unist-util-visit'
 import { unified } from 'unified'
 import { Paragraph, Text } from 'mdast'
 import remarkMath from 'remark-math'
-import { join } from 'path'
+import path, { join } from 'path'
 import remarkStringify from 'remark-stringify'
 import remarkGFM from 'remark-gfm'
 import remarkFrontMatter from 'remark-frontmatter'
 import { citePlugin, CitePluginOptions } from '@benrbray/remark-cite'
 import { convert } from 'unist-util-is'
 //@ts-expect-error remark-wiki-link does not have decl
-import { citePlugin as remarkWikiLink } from 'remark-wiki-link'
+import remarkWikiLink from 'remark-wiki-link'
 import { access, writeFile } from 'fs/promises'
 import { VFile } from 'vfile'
+import { mkdirSync } from 'fs'
 
 const isText = convert<Text>('text')
 export async function orgToMarkdown(
   dir: string,
-  options: Options,
-  out?: string
+  out?: string,
+  options?: Options
 ) {
   const links = await collectLinks(dir)
   const files = await readDirectory(dir)
@@ -76,10 +77,13 @@ export async function orgToMarkdown(
   console.log('Writing files...')
   let num = 0
   for (const file of vfiles) {
-    await writeFile(
-      String(file),
-      join(out || dir, `${pathArr[num]}`.replace('org', 'md'))
-    )
+    const mdpath = join(out || dir, `${pathArr[num]}`.replace('org', 'md'))
+    try {
+      await writeFile(mdpath, String(file))
+    } catch (e) {
+      mkdirSync(path.dirname(mdpath))
+      await writeFile(mdpath, String(file))
+    }
     num++
   }
   console.log('Done!')

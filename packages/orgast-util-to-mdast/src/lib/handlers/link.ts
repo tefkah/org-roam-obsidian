@@ -66,7 +66,6 @@ export const link: Handle = (
   }
 
   const extension = path.extname(node.path).slice(1)
-  console.log(extension)
   // Image
   if (node.linkType === 'file' && imageFileExtensions.includes(extension)) {
     const caption = hasAffiliatedKeywords(parent)

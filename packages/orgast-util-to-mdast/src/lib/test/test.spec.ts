@@ -14,11 +14,7 @@ import remarkMath from 'remark-math'
 import { citePlugin, CitePluginOptions } from '@benrbray/remark-cite'
 
 import { convert } from 'unist-util-is'
-import { Plugin } from 'unified'
-import { visitIds } from 'orgast-util-visit-ids'
-import { paragraph } from '../handlers/paragraph'
 import { visit } from 'unist-util-visit'
-import { collectLinks } from 'collect-org-roam-links'
 
 // @ts-expect-error no types for remark-wiki-link sadge
 import remarkWikiLink from 'remark-wiki-link'
