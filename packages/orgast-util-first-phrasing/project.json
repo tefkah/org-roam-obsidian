@@ -1,0 +1,34 @@
+{
+  "root": "packages/orgast-util-first-phrasing",
+  "sourceRoot": "packages/orgast-util-first-phrasing/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/node:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/orgast-util-first-phrasing",
+        "tsConfig": "packages/orgast-util-first-phrasing/tsconfig.lib.json",
+        "packageJson": "packages/orgast-util-first-phrasing/package.json",
+        "main": "packages/orgast-util-first-phrasing/src/index.ts",
+        "assets": ["packages/orgast-util-first-phrasing/*.md"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/orgast-util-first-phrasing"],
+      "options": {
+        "jestConfig": "packages/orgast-util-first-phrasing/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/orgast-util-first-phrasing/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

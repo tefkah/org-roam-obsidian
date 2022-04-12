@@ -1,0 +1,16 @@
+{
+  "name": "@org-roam-obsidian/orgast-util-first-phrasing",
+  "version": "0.0.1",
+  "license": "GPL-3-0-or-later",
+  "repository": "https://github.com/journaloftrialanderror/jote",
+  "author": "Thomas F. K. Jorna <hello@tefkah.com>",
+  "type": "module",
+  "description": "Return the first 'text' element in an org file, e.g. the first heading, paragraph, or word. Mostly used to check for duplicated headlines/titles.",
+  "keywords": [
+    "unified",
+    "abstract",
+    "syntax",
+    "tree",
+    "ast"
+  ]
+}

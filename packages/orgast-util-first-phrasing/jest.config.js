@@ -1,5 +1,5 @@
 const config = {
-  displayName: 'orgast-util-properties-to-json',
+  displayName: 'orgast-util-first-phrasing',
   preset: '../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -13,7 +13,7 @@ const config = {
   },
   transformIgnorePatterns: [],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/libs/orgast-util-properties-to-json',
+  coverageDirectory: '../../coverage/libs/orgast-util-first-phrasing',
   extensionsToTreatAsEsm: ['.ts'],
   moduleNameMapper: {
     '^(\\.{1,2}/.*)\\.js$': '$1',

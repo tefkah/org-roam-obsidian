@@ -22,6 +22,9 @@
     "noImplicitThis": false,
     "baseUrl": ".",
     "paths": {
+      "@org-roam-obsidian/orgast-util-first-phrasing": [
+        "packages/orgast-util-first-phrasing/src/index.ts"
+      ],
       "collect-org-roam-links": [
         "packages/collect-org-roam-links/src/index.ts"
       ],

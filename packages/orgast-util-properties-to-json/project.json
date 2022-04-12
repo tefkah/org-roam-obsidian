@@ -18,7 +18,7 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/packages/orgast-util-properties-to-json"],
       "options": {
-        "jestConfig": "packages/orgast-util-properties-to-josn/jest.config.js",
+        "jestConfig": "packages/orgast-util-properties-to-json/jest.config.js",
         "passWithNoTests": true
       }
     },
