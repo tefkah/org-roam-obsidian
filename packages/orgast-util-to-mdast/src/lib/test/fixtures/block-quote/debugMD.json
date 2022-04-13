@@ -1,0 +1,37 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "yaml",
+      "value": "fake: data"
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        {
+          "type": "text",
+          "value": "hey nerd"
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "rawText",
+              "value": "[!quote]\n"
+            },
+            {
+              "type": "text",
+              "value": "Some quote"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "type": "org-data",
+  "contentsBegin": 0,
+  "contentsEnd": 62,
+  "children": [
+    {
+      "type": "keyword",
+      "affiliated": {},
+      "key": "FAKE",
+      "value": "data"
+    },
+    {
+      "type": "section",
+      "contentsBegin": 14,
+      "contentsEnd": 62,
+      "children": [
+        {
+          "type": "headline",
+          "level": 1,
+          "todoKeyword": null,
+          "priority": null,
+          "commented": false,
+          "rawValue": "hey nerd",
+          "tags": [],
+          "contentsBegin": 16,
+          "contentsEnd": 24,
+          "children": [
+            {
+              "type": "text",
+              "value": "hey nerd"
+            }
+          ]
+        },
+        {
+          "type": "quote-block",
+          "affiliated": {},
+          "contentsBegin": 39,
+          "contentsEnd": 50,
+          "children": [
+            {
+              "type": "paragraph",
+              "affiliated": {},
+              "contentsBegin": 39,
+              "contentsEnd": 50,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Some quote\n"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
