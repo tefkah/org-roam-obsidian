@@ -65,6 +65,7 @@
     "uniorg-slug": "^0.5.0",
     "unist-builder": "^3.0.0",
     "unist-util-is": "^5.1.1",
+    "unist-util-select": "^4.0.1",
     "unist-util-visit": "^3.1.0",
     "vfile": "^5.3.2",
     "vfile-location": "^4.0.1",

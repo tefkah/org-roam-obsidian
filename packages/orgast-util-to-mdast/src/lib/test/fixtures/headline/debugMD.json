@@ -7,11 +7,7 @@
       "children": [
         {
           "type": "text",
-          "value": "heading 1"
-        },
-        {
-          "type": "text",
-          "value": " #tag1 #tag2"
+          "value": "heading 1 #tag1 #tag2"
         }
       ]
     },

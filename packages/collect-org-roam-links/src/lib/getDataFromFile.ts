@@ -55,19 +55,19 @@ export const getDataFromFile = async (text: string, props?: DataProps) => {
 
         kids.forEach((kid: NodeProperty) => {
           const { key, value } = kid
-          switch (key) {
+          switch (key.toLowerCase()) {
             case 'ctime':
               data.ctime = value
               return
             case 'mtime':
               data.mtime = value
               return
-            case 'ROAM_REFS':
+            case 'roam_refs':
               data.citation = value.replace(/(cite:|@)/g, '')
               return
             case 'id':
             case 'ID':
-              data.id = value
+              data.id = `${value}`
               return
             default:
               return

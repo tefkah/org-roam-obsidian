@@ -24,7 +24,7 @@ import { tableCell } from './tableCell'
 import { tableRow } from './tableRow'
 import { footnoteReference } from './footnoteReference'
 import { footnoteDefinition } from './footnoteDefinition'
-import { quoteBlock } from './quoteBlock'
+import { block } from './quoteBlock'
 
 export const handlers = {
   // 'org-data': orgData,
@@ -34,10 +34,10 @@ export const handlers = {
   'property-drawer': ignore,
   'plain-list': list,
   'list-item': listItem,
-  'quote-block': quoteBlock,
-  'verse-block': quoteBlock,
+  'quote-block': block,
+  'verse-block': block,
   'center-block': all,
-  'special-block': all,
+  'special-block': block,
   'footnote-definition': footnoteDefinition,
 
   table,
@@ -50,7 +50,7 @@ export const handlers = {
   // 'listItem-tag': listItemTag,
   'comment-block': comment,
   'src-block': srcBlock,
-  'example-block': quoteBlock,
+  'example-block': block,
   'export-block': code,
   keyword,
   comment,

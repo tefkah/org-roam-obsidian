@@ -3,7 +3,7 @@
   "children": [
     {
       "type": "yaml",
-      "value": "title: The observability of internal, external, global and local symmetries\ntags:\n  - symmetry\nid: b07c52c3-f3d0-47c6-8d55-ad2b9ccdeabe\nmtime: \"20210701200805\"\nctime: \"20210330154142\""
+      "value": "title: The observability of internal, external, global and local symmetries\ntags:\n  - symmetry\nid: b07c52c3-f3d0-47c6-8d55-ad2b9ccdeabe\nmtime: 20210701200805\nctime: 20210330154142"
     },
     {
       "type": "heading",
@@ -384,10 +384,6 @@
             "alias": "Local internal symmetries are not directly observable",
             "exists": false
           }
-        },
-        {
-          "type": "text",
-          "value": ""
         },
         {
           "type": "wikiLink",

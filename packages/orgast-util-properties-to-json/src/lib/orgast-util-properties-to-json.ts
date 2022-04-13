@@ -3,7 +3,7 @@ import { Node } from 'unist'
 import { visit } from 'unist-util-visit'
 
 export interface OrgastProperties {
-  [key: string]: string
+  [key: string]: string | number
 }
 export function getProperties(node: OrgData): OrgastProperties | null {
   const properties = {} as OrgastProperties
@@ -11,7 +11,14 @@ export function getProperties(node: OrgData): OrgastProperties | null {
   // @ts-ignore stupid bug
   visit(node, 'node-property', (prop: NodeProperty) => {
     const { key, value } = prop
-    properties[key.toLowerCase()] = value
+    let val: string | number
+    try {
+      val = parseInt(value, 10)
+      if (isNaN(val)) val = value
+    } catch (e) {
+      val = value
+    }
+    properties[key.toLowerCase()] = val
   })
   return Object.keys(properties).length ? properties : null
 }

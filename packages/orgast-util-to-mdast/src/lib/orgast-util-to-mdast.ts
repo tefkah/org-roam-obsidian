@@ -18,12 +18,13 @@ import { convert } from 'unist-util-is'
 import { getProperties } from 'orgast-util-properties-to-json'
 import { OrgData } from 'uniorg'
 import YAML from 'yaml'
+import { visit } from 'unist-util-visit'
 
 export { one } from './one'
 export { all } from './all'
 export { handlers as defaultHandlers }
 
-const block = convert(['heading', 'paragraph', 'root'])
+const block = convert(['heading', 'paragraph', 'root', 'blockquote'])
 
 export function toMdast(tree: OrgData, options?: Options) {
   options = {
@@ -119,7 +120,9 @@ export function toMdast(tree: OrgData, options?: Options) {
     ? { ...(j.frontMatter || {}), ...(propertyDrawer || {}) }
     : null
 
-  const yamlFrontMatter = YAML.stringify(frontMatterRaw).slice(0, -1)
+  const yamlFrontMatter = YAML.stringify(frontMatterRaw, {
+    defaultStringType: 'PLAIN',
+  }).slice(0, -1)
 
   const frontMatter = {
     type: 'yaml',
@@ -136,7 +139,7 @@ export function toMdast(tree: OrgData, options?: Options) {
     mdast = result
   }
 
-  // visit(mdast, 'text', ontext)
+  visit(mdast, 'text', ontext)
 
   return mdast
 

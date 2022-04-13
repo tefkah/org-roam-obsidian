@@ -3,7 +3,7 @@
   "children": [
     {
       "type": "yaml",
-      "value": "title: III. Anyons\ntags:\n  - chapter\n  - anyons\nlatex_header: \\usepackage[style=apa, backend=biber]{biblatex}\nlatex_header_extra: \\DeclareUnicodeCharacter{2212}{-}\ntransclude: \"[[id:66aff1d3-bd45-45e5-9d31-d4292d76ae8e][FQHE/anyon\n  chapter:Geometrical Phase]]\"\nid: 84c8fdf0-a17d-4610-b644-d298235f699e\nmtime: 20211213124823 20211017163517 20211017163516\nctime: \"20210528160149\""
+      "value": "title: III. Anyons\ntags:\n  - chapter\n  - anyons\nlatex_header: \\usepackage[style=apa, backend=biber]{biblatex}\nlatex_header_extra: \\DeclareUnicodeCharacter{2212}{-}\ntransclude: \"[[id:66aff1d3-bd45-45e5-9d31-d4292d76ae8e][FQHE/anyon\n  chapter:Geometrical Phase]]\"\nid: 84\nmtime: 20211213124823\nctime: 20210528160149"
     },
     {
       "type": "heading",
@@ -407,10 +407,6 @@
         {
           "type": "inlineMath",
           "value": "\\psi_i"
-        },
-        {
-          "type": "text",
-          "value": ""
         },
         {
           "type": "inlineMath",
@@ -833,11 +829,7 @@
       "children": [
         {
           "type": "text",
-          "value": "This concept of connectedness allows us to understand the main assumption behind the handwavey argument above: we return to the same position after rotating 2"
-        },
-        {
-          "type": "text",
-          "value": "\nif the space is simply connected, because \"being the same\" means \"being the same path\" and \"being the same path\" means \"being able to continuously deform them to each other\" and \"doing nothing\" is the \"point path\" and you are only able to shrink all paths to a point in a simply connected space. This, of course, raises the question: is the configuration space of two identical particles always simply connected, i.e., why do should we return to the same system after rotating "
+          "value": "This concept of connectedness allows us to understand the main assumption behind the handwavey argument above: we return to the same position after rotating 2 if the space is simply connected, because \"being the same\" means \"being the same path\" and \"being the same path\" means \"being able to continuously deform them to each other\" and \"doing nothing\" is the \"point path\" and you are only able to shrink all paths to a point in a simply connected space. This, of course, raises the question: is the configuration space of two identical particles always simply connected, i.e., why do should we return to the same system after rotating "
         },
         {
           "type": "inlineMath",
@@ -1106,7 +1098,7 @@
                 },
                 {
                   "type": "text",
-                  "value": " of the system, that is, all possible\n   positions our particle pair could be in."
+                  "value": " of the system, that is, all possible positions our particle pair could be in."
                 }
               ]
             }
@@ -1120,7 +1112,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "Find all possible homotopy equivalent paths, and, by extension, the\n   "
+                  "value": "Find all possible homotopy equivalent paths, and, by extension, the\n"
                 },
                 {
                   "type": "emphasis",
@@ -1147,7 +1139,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "Derive the 1D-representation of that group, that is, a scalar representing\n   that group. This is the phase-factor."
+                  "value": "Derive the 1D-representation of that group, that is, a scalar representing that group. This is the phase-factor."
                 }
               ]
             }
@@ -1189,7 +1181,7 @@
       "children": [
         {
           "type": "text",
-          "value": " Our first task is to construct the configuration space for the exchange of "
+          "value": "Our first task is to construct the configuration space for the exchange of "
         },
         {
           "type": "inlineMath",
@@ -1197,7 +1189,7 @@
         },
         {
           "type": "text",
-          "value": "\n identical particles in "
+          "value": "\nidentical particles in "
         },
         {
           "type": "inlineMath",
@@ -1205,7 +1197,7 @@
         },
         {
           "type": "text",
-          "value": ", after which we will examine its topological\n properties. The most general configuration space we can construct is one for\n "
+          "value": ", after which we will examine its topological properties. The most general configuration space we can construct is one for\n "
         },
         {
           "type": "inlineMath",
@@ -1546,7 +1538,7 @@
       "children": [
         {
           "type": "text",
-          "value": "     Finally we are able to make some clever remarks about the structure of the\n     configuration space, starting (and ultimately ending) with its\n     "
+          "value": "Finally we are able to make some clever remarks about the structure of the configuration space, starting (and ultimately ending) with its\n     "
         },
         {
           "type": "emphasis",
@@ -1572,7 +1564,7 @@
         },
         {
           "type": "text",
-          "value": "\n     if, roughly, no holes pierce it. To placate the more mathematically\n     oriented reader and be more precise, a space is called simply connected if\n     it contains no non-trivial loops, meaning that all paths looping back\n     around to itself (a loop) are "
+          "value": "\nif, roughly, no holes pierce it. To placate the more mathematically\n     oriented reader and be more precise, a space is called simply connected if\n     it contains no non-trivial loops, meaning that all paths looping back\n     around to itself (a loop) are "
         },
         {
           "type": "emphasis",
@@ -1585,7 +1577,7 @@
         },
         {
           "type": "text",
-          "value": " to a point, meaning that\n     we are able to smoothly \"close the loop\" without it \"snagging\" behind a\n     point somewhere. The \"are able to\" does a lot of work here: if there is\n     even "
+          "value": " to a point, meaning that we are able to smoothly \"close the loop\" without it \"snagging\" behind a\n     point somewhere. The \"are able to\" does a lot of work here: if there is\n     even "
         },
         {
           "type": "emphasis",
@@ -1598,7 +1590,7 @@
         },
         {
           "type": "text",
-          "value": " way to contract the path to point we consider it possible to\n     do so and therefore the "
+          "value": " way to contract the path to point we consider it possible to do so and therefore the "
         },
         {
           "type": "emphasis",
@@ -1617,7 +1609,12 @@
     },
     {
       "type": "blockquote",
-      "children": []
+      "children": [
+        {
+          "type": "rawText",
+          "value": "[!example]\n"
+        }
+      ]
     },
     {
       "type": "paragraph",
@@ -1672,10 +1669,6 @@
               "value": "real projective plane"
             }
           ]
-        },
-        {
-          "type": "text",
-          "value": ""
         },
         {
           "type": "inlineMath",
@@ -1998,11 +1991,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "Add explanation of why RP2 is equivalent in the relevant respects to R3-delta/S2. This is not obvious for two reasons: Several layers of RP2 "
-                },
-                {
-                  "type": "text",
-                  "value": " Q', because in Q' paths can move between the layers, and secondly because RP2 is not a sphere and Q' is not R3, so the embedding of the one in the other is not the same. Retractability is important here, see Munkers Ch 9."
+                  "value": "Add explanation of why RP2 is equivalent in the relevant respects to R3-delta/S2. This is not obvious for two reasons: Several layers of RP2  Q', because in Q' paths can move between the layers, and secondly because RP2 is not a sphere and Q' is not R3, so the embedding of the one in the other is not the same. Retractability is important here, see Munkers Ch 9."
                 }
               ]
             }
@@ -2686,11 +2675,7 @@
       "children": [
         {
           "type": "text",
-          "value": "TODO "
-        },
-        {
-          "type": "text",
-          "value": "Symmetry group"
+          "value": "TODO Symmetry group"
         }
       ]
     },
@@ -2699,7 +2684,7 @@
       "children": [
         {
           "type": "text",
-          "value": " Here "
+          "value": "Here "
         },
         {
           "type": "inlineMath",
@@ -2758,7 +2743,12 @@
     },
     {
       "type": "blockquote",
-      "children": []
+      "children": [
+        {
+          "type": "rawText",
+          "value": "[!example]\n"
+        }
+      ]
     },
     {
       "type": "heading",
@@ -2775,7 +2765,7 @@
       "children": [
         {
           "type": "text",
-          "value": "      The fundamental group of our "
+          "value": "The fundamental group of our "
         },
         {
           "type": "inlineMath",
@@ -2783,7 +2773,7 @@
         },
         {
           "type": "text",
-          "value": " configuration space is isomorphic to the\n      "
+          "value": " configuration space is isomorphic to the\n"
         },
         {
           "type": "emphasis",
@@ -2796,7 +2786,7 @@
         },
         {
           "type": "text",
-          "value": ", a group often studied in knot theory as braids can be seen as\n      cut knots. The "
+          "value": ", a group often studied in knot theory as braids can be seen as cut knots. The "
         },
         {
           "type": "inlineMath",
@@ -2804,7 +2794,7 @@
         },
         {
           "type": "text",
-          "value": "-dimensional Braid group can be seen as all the possible\n      "
+          "value": "-dimensional Braid group can be seen as all the possible\n"
         },
         {
           "type": "emphasis",
@@ -2846,7 +2836,7 @@
         },
         {
           "type": "text",
-          "value": " and\n      its inverse "
+          "value": " and its inverse "
         },
         {
           "type": "inlineMath",
@@ -2870,7 +2860,7 @@
         },
         {
           "type": "text",
-          "value": "\n      clockwise and counterclockwise respectively. A braid is a set of strands\n      crossing over and under each other and fixed at either end. Specifically,\n      two braids are the same if the strands can be moved into the same\n      configuration without phasing through each other or moving the endpoints.\n      Because of this, the Braid group fundamentally differs from the symmetry\n      group, as fr the symmetry group "
+          "value": "\nclockwise and counterclockwise respectively. A braid is a set of strands\n      crossing over and under each other and fixed at either end. Specifically,\n      two braids are the same if the strands can be moved into the same\n      configuration without phasing through each other or moving the endpoints.\n      Because of this, the Braid group fundamentally differs from the symmetry\n      group, as fr the symmetry group "
         },
         {
           "type": "inlineMath",
@@ -2886,7 +2876,7 @@
         },
         {
           "type": "text",
-          "value": " are the same, they\n      are different elements in the Braid group, see "
+          "value": " are the same, they are different elements in the Braid group, see "
         },
         {
           "type": "rawText",
@@ -3148,11 +3138,7 @@
       "children": [
         {
           "type": "text",
-          "value": "TODO "
-        },
-        {
-          "type": "text",
-          "value": "Asides: we are now working in projective space, which is very weird. We need to check whether QM still holds"
+          "value": "TODO Asides: we are now working in projective space, which is very weird. We need to check whether QM still holds"
         }
       ]
     },
@@ -3162,11 +3148,7 @@
       "children": [
         {
           "type": "text",
-          "value": "TODO "
-        },
-        {
-          "type": "text",
-          "value": "Aside: kets stand to states as (universal) covers stand to normal spaces"
+          "value": "TODO Aside: kets stand to states as (universal) covers stand to normal spaces"
         }
       ]
     },
@@ -3877,7 +3859,7 @@
                 },
                 {
                   "type": "text",
-                  "value": "], we know how to interpret this: we can demote an\n      idealization to an approximation if we are able to show that there is a\n      smooth limit."
+                  "value": "], we know how to interpret this: we can demote an idealization to an approximation if we are able to show that there is a\n      smooth limit."
                 }
               ]
             }
@@ -4253,7 +4235,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "This resistivity linearly depends on the voltage, which linearly depends\n      on the concentration difference which linearly depends on the strength of\n      the magnetic field, thus yielding a linear dependence of the resistivity\n      to the strenght of the perpendicular magnetic field."
+                  "value": "This resistivity linearly depends on the voltage, which linearly depends on the concentration difference which linearly depends on the strength of\n      the magnetic field, thus yielding a linear dependence of the resistivity\n      to the strenght of the perpendicular magnetic field."
                 }
               ]
             }
@@ -4314,7 +4296,7 @@
       "children": [
         {
           "type": "text",
-          "value": " So: why? Why do we see these plateaux, and why at these levels? The short\n answer (partially) is: the impurities in the sample lift the degeneracy of the\n eigenstates of the Quantum Hall system, called Landau levels, and "
+          "value": "So: why? Why do we see these plateaux, and why at these levels? The short answer (partially) is: the impurities in the sample lift the degeneracy of the\n eigenstates of the Quantum Hall system, called Landau levels, and "
         },
         {
           "type": "emphasis",
@@ -4327,7 +4309,7 @@
         },
         {
           "type": "text",
-          "value": "\n some of those states, rather than the states extending from one edge of the\n sample to the other (akin to the wavefunctions of a particle in a box). These\n localized states do not conduct current (as do not span the system, and\n resistivity is measured from end to end), thus leading to the plateaux in the\n resistivity: we change plateaux when all the localized states are filled and we\n move to different extended states. The specific values of these levels depend\n on weird physics at the boundaries of the system called "
+          "value": "\nsome of those states, rather than the states extending from one edge of the\n sample to the other (akin to the wavefunctions of a particle in a box). These\n localized states do not conduct current (as do not span the system, and\n resistivity is measured from end to end), thus leading to the plateaux in the\n resistivity: we change plateaux when all the localized states are filled and we\n move to different extended states. The specific values of these levels depend\n on weird physics at the boundaries of the system called "
         },
         {
           "type": "emphasis",
@@ -4340,7 +4322,7 @@
         },
         {
           "type": "text",
-          "value": ", but in\n short the levels correspond to the number of filled Landau levels: at higher\n magnetic field strengths the levels can accommodate more states, thus the lower\n the magnetic field strength the larger the number of available levels, leading\n to a smooth-looking linear dependence in the classical regime."
+          "value": ", but in short the levels correspond to the number of filled Landau levels: at higher\n magnetic field strengths the levels can accommodate more states, thus the lower\n the magnetic field strength the larger the number of available levels, leading\n to a smooth-looking linear dependence in the classical regime."
         }
       ]
     },
@@ -4661,10 +4643,6 @@
           "value": "At this point we introduce new variables. These are raising and lowering operators, entirely analogous to those that we use in the harmonic oscillator. They are defined by"
         },
         {
-          "type": "text",
-          "value": ""
-        },
-        {
           "type": "inlineMath",
           "value": "a= \\frac{1}{\\sqrt{2e\\hbar B}} (\\pi_x - i\\pi_y) \\quad a^\\dagger = 1\\frac{1}{\\sqrt{2e\\hbar B}} (\\pi_x + i\\pi_y)"
         }
@@ -4854,7 +4832,7 @@
       "children": [
         {
           "type": "text",
-          "value": "    In order to provide a more thorough calculation (i.e. not just considering a single electron) we take advantage of a the fact that the system is bounded. I will not reproduce this here."
+          "value": "In order to provide a more thorough calculation (i.e. not just considering a single electron) we take advantage of a the fact that the system is bounded. I will not reproduce this here."
         }
       ]
     },
@@ -4873,7 +4851,7 @@
       "children": [
         {
           "type": "text",
-          "value": "        The explanation above shows us why there are plateaux at the levels we\n        see, and even gives us a hint as to why those states would be rather\n        stable, but it has not yet told us "
+          "value": "The explanation above shows us why there are plateaux at the levels we see, and even gives us a hint as to why those states would be rather\n        stable, but it has not yet told us "
         },
         {
           "type": "emphasis",
@@ -4886,7 +4864,7 @@
         },
         {
           "type": "text",
-          "value": " these plateaux persist over a\n        range of values yet, just that something is going on at those values. We\n        have only shown that at complete filled Landau levels ("
+          "value": " these plateaux persist over a range of values yet, just that something is going on at those values. We\n        have only shown that at complete filled Landau levels ("
         },
         {
           "type": "inlineMath",
@@ -4894,7 +4872,7 @@
         },
         {
           "type": "text",
-          "value": ") the\n        longitudinal resistivity "
+          "value": ") the longitudinal resistivity "
         },
         {
           "type": "inlineMath",
@@ -4902,7 +4880,7 @@
         },
         {
           "type": "text",
-          "value": " and that the transversal resistivity\n        "
+          "value": " and that the transversal resistivity\n"
         },
         {
           "type": "inlineMath",
@@ -4910,7 +4888,7 @@
         },
         {
           "type": "text",
-          "value": " is an integer multiple of the quantum of resistance. However,\n        if we were to move even slightly away from the completely filled Landau\n        state where "
+          "value": " is an integer multiple of the quantum of resistance. However,\nif we were to move even slightly away from the completely filled Landau\n        state where "
         },
         {
           "type": "inlineMath",
@@ -4918,7 +4896,7 @@
         },
         {
           "type": "text",
-          "value": ", all our previous arguments\n        hold no water and there is no reason to expect anything already covered\n        to hold."
+          "value": ", all our previous arguments hold no water and there is no reason to expect anything already covered\n        to hold."
         }
       ]
     },
@@ -4927,7 +4905,7 @@
       "children": [
         {
           "type": "text",
-          "value": "    This is obviously a problem, as an effect which only shows up at a specific\n    real number would never be experimentally observable. We will need do some\n    dirty work in order for "
+          "value": "This is obviously a problem, as an effect which only shows up at a specific real number would never be experimentally observable. We will need do some\n    dirty work in order for "
         },
         {
           "type": "inlineCode",
@@ -4935,7 +4913,7 @@
         },
         {
           "type": "text",
-          "value": " to make sense. In fact, the solution not only\n    requires some dirty work: the solution "
+          "value": " to make sense. In fact, the solution not only requires some dirty work: the solution "
         },
         {
           "type": "emphasis",
@@ -4957,7 +4935,7 @@
       "children": [
         {
           "type": "text",
-          "value": "    Experimental samples are inherently dirty (here meaning: containing other\n    elements than the intended sample"
+          "value": "Experimental samples are inherently dirty (here meaning: containing other elements than the intended sample"
         },
         {
           "type": "footnoteReference",
@@ -4966,7 +4944,7 @@
         },
         {
           "type": "text",
-          "value": "), and these impurities require us to\n    re-examine our previous claims somewhat"
+          "value": "), and these impurities require us to re-examine our previous claims somewhat"
         },
         {
           "type": "footnoteReference",
@@ -4975,7 +4953,7 @@
         },
         {
           "type": "text",
-          "value": ". These impurities lead to two\n    vital insights which will allow us to solve our puzzle:"
+          "value": ". These impurities lead to two vital insights which will allow us to solve our puzzle:"
         }
       ]
     },
@@ -5488,7 +5466,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "We do try to generalize, and say that a wavefunction for N particles will\n       look something like "
+                  "value": "We do try to generalize, and say that a wavefunction for N particles will look something like "
                 },
                 {
                   "type": "inlineMath",
@@ -5519,7 +5497,7 @@
                 },
                 {
                   "type": "text",
-                  "value": " that the wavefunction be in the Lowest Landau Level (LLL) it\n       can possibly be: there are no other Landau levels it can fall back on.\n       This is rather strong. This leads to the claim that "
+                  "value": " that the wavefunction be in the Lowest Landau Level (LLL) it can possibly be: there are no other Landau levels it can fall back on.\n       This is rather strong. This leads to the claim that "
                 },
                 {
                   "type": "inlineMath",
@@ -5540,7 +5518,7 @@
                 },
                 {
                   "type": "text",
-                  "value": " be\n       analytic. "
+                  "value": " be analytic. "
                 },
                 {
                   "type": "inlineCode",
@@ -5558,7 +5536,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "Since the state will have to describe fermions, the wave function must be\n       anti-symmetric under exchange of the particles, which requires "
+                  "value": "Since the state will have to describe fermions, the wave function must be anti-symmetric under exchange of the particles, which requires "
                 },
                 {
                   "type": "inlineMath",
@@ -5566,7 +5544,7 @@
                 },
                 {
                   "type": "text",
-                  "value": " to\n       be odd."
+                  "value": " to be odd."
                 }
               ]
             }
@@ -5703,7 +5681,7 @@
       "children": [
         {
           "type": "text",
-          "value": "   Parallel transport is a bit strange. On a flat Euclidean plane, nothing happens.\n   A cone is like a flat Euclidean plane glued together in a weird way, like this"
+          "value": "Parallel transport is a bit strange. On a flat Euclidean plane, nothing happens.\nA cone is like a flat Euclidean plane glued together in a weird way, like this"
         }
       ]
     },
@@ -5734,7 +5712,7 @@
       "children": [
         {
           "type": "text",
-          "value": " Where side "
+          "value": "Where side "
         },
         {
           "type": "inlineMath",
@@ -5767,7 +5745,7 @@
       "children": [
         {
           "type": "text",
-          "value": " We can then calculate our parallel transport by simply \"doing\" the parallel transport on the surface of the \"flat\" cone."
+          "value": "We can then calculate our parallel transport by simply \"doing\" the parallel transport on the surface of the \"flat\" cone."
         }
       ]
     },
@@ -5776,7 +5754,7 @@
       "children": [
         {
           "type": "text",
-          "value": " The vector is transport from the one side to the other, eventually reaching the edge "
+          "value": "The vector is transport from the one side to the other, eventually reaching the edge "
         },
         {
           "type": "inlineMath",
@@ -5822,10 +5800,6 @@
       "type": "paragraph",
       "children": [
         {
-          "type": "text",
-          "value": " "
-        },
-        {
           "type": "rawText",
           "value": "https://www.physicsforums.com/threads/parallel-transport-and-cone.1000209/"
         }
@@ -5836,7 +5810,7 @@
       "children": [
         {
           "type": "text",
-          "value": " This angle difference is directly related to the angle of the cone. We see that the sharper the cone, the bigger the failure of parallel transport (holonomy) will be."
+          "value": "This angle difference is directly related to the angle of the cone. We see that the sharper the cone, the bigger the failure of parallel transport (holonomy) will be."
         }
       ]
     },
@@ -5845,7 +5819,7 @@
       "children": [
         {
           "type": "text",
-          "value": " The strange thing is, of course, that this angle difference appears rather suddenly only after we completed >1 round. However, were we to move an 'actual' vector on a cone, we'd expect this to happen slowly, right? We want to get rid of the \"discontinuous jump\"."
+          "value": "The strange thing is, of course, that this angle difference appears rather suddenly only after we completed >1 round. However, were we to move an 'actual' vector on a cone, we'd expect this to happen slowly, right? We want to get rid of the \"discontinuous jump\"."
         }
       ]
     },
@@ -5854,7 +5828,7 @@
       "children": [
         {
           "type": "text",
-          "value": " This question proves rather difficult to answer, for two reasons."
+          "value": "This question proves rather difficult to answer, for two reasons."
         }
       ]
     },
@@ -5902,7 +5876,7 @@
       "children": [
         {
           "type": "text",
-          "value": "\n In actuality, when you deform the cone in the figure above, the angle "
+          "value": "\nIn actuality, when you deform the cone in the figure above, the angle "
         },
         {
           "type": "emphasis",
@@ -5915,7 +5889,7 @@
         },
         {
           "type": "text",
-          "value": "\n change continuously along the path of the cone wrt beginning angle, but that's\n very often the case and does not count."
+          "value": "\nchange continuously along the path of the cone wrt beginning angle, but that's\n very often the case and does not count."
         }
       ]
     },
@@ -5924,7 +5898,7 @@
       "children": [
         {
           "type": "text",
-          "value": " Instead of having the continuous parameter be the angle of the cone, a better\n one would be the \"path\", since we are interested in paths after all. Here we\n see that if we take any path that does not cross the \"seam\", the angle\n remains 0. But the seam is kind of arbitrary, so that is not really fair. We do\n know, however, that if the path encircles the tip of the cone it definitely\n passes the seam. So now we have our discontinuity: all paths that do not cross\n the tip do not gain a holomorphic angle (because those paths are the same as\n paths in Euclidean spacetime), while as soon as the path encompasses the origin\n it has to cross the seam and thus gains an angle "
+          "value": "Instead of having the continuous parameter be the angle of the cone, a better one would be the \"path\", since we are interested in paths after all. Here we\n see that if we take any path that does not cross the \"seam\", the angle\n remains 0. But the seam is kind of arbitrary, so that is not really fair. We do\n know, however, that if the path encircles the tip of the cone it definitely\n passes the seam. So now we have our discontinuity: all paths that do not cross\n the tip do not gain a holomorphic angle (because those paths are the same as\n paths in Euclidean spacetime), while as soon as the path encompasses the origin\n it has to cross the seam and thus gains an angle "
         },
         {
           "type": "inlineMath",
@@ -5941,7 +5915,7 @@
       "children": [
         {
           "type": "text",
-          "value": " Since this failure of parallel transport is a geometric property, we say that all the geometric information of the cone is centered in one point, because inclusion of that point in the path makes or breaks the angle."
+          "value": "Since this failure of parallel transport is a geometric property, we say that all the geometric information of the cone is centered in one point, because inclusion of that point in the path makes or breaks the angle."
         }
       ]
     },
@@ -5960,7 +5934,7 @@
       "children": [
         {
           "type": "text",
-          "value": "    As we see, the thing we then need to change in order to get a more smooth\n    cone holonomy is the tip. At the moment we have only one point which is\n    problematic. This can be seen as our idealization: an infinitely sharp cone\n    instead of a blunt one."
+          "value": "As we see, the thing we then need to change in order to get a more smooth cone holonomy is the tip. At the moment we have only one point which is\n    problematic. This can be seen as our idealization: an infinitely sharp cone\n    instead of a blunt one."
         }
       ]
     },
@@ -5969,7 +5943,7 @@
       "children": [
         {
           "type": "text",
-          "value": "    When we blunt the cone, we suddenly see that the path can be continuously\n    deformed to include the \"seam\". However, what we have gained in smoothness\n    we have lost in mathematical simplicity: we no longer can easily relate the\n    cone to the Euclidean plane. In order to describe the blunt cone, we need to\n    describe it's "
+          "value": "When we blunt the cone, we suddenly see that the path can be continuously deformed to include the \"seam\". However, what we have gained in smoothness\n    we have lost in mathematical simplicity: we no longer can easily relate the\n    cone to the Euclidean plane. In order to describe the blunt cone, we need to\n    describe it's "
         },
         {
           "type": "emphasis",
@@ -5991,7 +5965,7 @@
       "children": [
         {
           "type": "text",
-          "value": "    ..."
+          "value": "..."
         }
       ]
     },
@@ -6000,17 +5974,13 @@
       "children": [
         {
           "type": "text",
-          "value": "    Now we see that the cone is good."
+          "value": "Now we see that the cone is good."
         }
       ]
     },
     {
       "type": "paragraph",
       "children": [
-        {
-          "type": "text",
-          "value": " "
-        },
         {
           "type": "wikiLink",
           "value": "FQHE/anyon chapter",
