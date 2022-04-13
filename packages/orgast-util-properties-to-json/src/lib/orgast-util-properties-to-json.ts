@@ -5,7 +5,10 @@ import { visit } from 'unist-util-visit'
 export interface OrgastProperties {
   [key: string]: string | number
 }
-export function getProperties(node: OrgData): OrgastProperties | null {
+export function getProperties(
+  node: OrgData,
+  map?: { [key: string]: string }
+): OrgastProperties | null {
   const properties = {} as OrgastProperties
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore stupid bug
@@ -13,12 +16,12 @@ export function getProperties(node: OrgData): OrgastProperties | null {
     const { key, value } = prop
     let val: string | number
     try {
-      val = parseInt(value, 10)
-      if (isNaN(val)) val = value
+      val = value.match(/^\d+$/) ? parseInt(value, 10) : value
+      if (typeof val === 'number' && isNaN(val)) val = value
     } catch (e) {
       val = value
     }
-    properties[key.toLowerCase()] = val
+    properties[map?.[key.toLowerCase()] ?? key.toLowerCase()] = val
   })
   return Object.keys(properties).length ? properties : null
 }

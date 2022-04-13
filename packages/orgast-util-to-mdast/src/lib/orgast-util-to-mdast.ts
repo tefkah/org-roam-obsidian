@@ -114,7 +114,7 @@ export function toMdast(tree: OrgData, options?: Options) {
   // @ts-expect-error: does return a transformer, that does accept any node.
   const result = one(j, tree, undefined)
 
-  const propertyDrawer = getProperties(tree)
+  const propertyDrawer = getProperties(tree, j.keywordFrontMatterMap)
   const needsFrontMatter = Object.keys(j.frontMatter).length || propertyDrawer
   const frontMatterRaw = needsFrontMatter
     ? { ...(j.frontMatter || {}), ...(propertyDrawer || {}) }
